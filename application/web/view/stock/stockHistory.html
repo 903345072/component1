@@ -1,0 +1,112 @@
+{extend name="layouts/layout_index" /}
+
+{block name="title"}
+满盈策略
+{/block}
+
+{block name="style"}
+{/block}
+
+{block name="content"}
+<!--结算区-->
+<div class="br-content">
+<div class="w1024">
+<div class="stock-sell stock-buy stock-settle">
+    <section class="play-area">
+        <nav>
+            <ul class="clearfix">
+                <li class=""><a href="{:url('web/Stock/stockBuy')}"><em> 01 </em>| 点买区</a></li>
+                <li class=""><a href="{:url('web/Stock/stockSell')}"><em>02 </em>| 点卖区</a></li>
+                <li class="active"><a href="{:url('web/Stock/stockHistory')}"><em>03 </em> | 结算区</a></li>
+            </ul>
+        </nav>
+       <section>
+            <nav class="row" style="position: relative;">
+                <!-- <div class="select">
+                    <span>时间：</span>
+                    <a href="history.html?recent=7" id="recent7" class="">最近7个交易日</a>
+                    <a href="history.html?recent=30" id="recent30">最近30个交易日</a>
+                    <a id="selectByDate">按时间选择<span class="sanj"></span></a>
+                </div> -->
+                <div class="jiesuan-deal pa" style="top:200px;left:300px" id="JchooseDate" data-val="0">
+                    <h4 class=" pb5 f14 db lh18" style="height:30px;">
+                        <span class="left_gray fl">&lt;</span>
+                        <span class="cen fl"><span id="yearSpan">2018</span>年</span>
+                        <span class="right_gray fr ">&gt;</span>
+                    </h4>
+                    <div style=" width: 224px; height: 110px; overflow: hidden;margin: 0 auto;">
+                        <div style=" width: 224px; height: 110px;margin-left:0px" id="JyearContent">
+                            <ul class="jiesuan-dea2 tc"><li><a href="javascript:void(0);" data-m="1" class="JchooseMonth ">1月</a></li><li><span>2月</span></li><li><span>3月</span></li><li><span>4月</span></li><li><span>5月</span></li><li><span>6月</span></li><li><span>7月</span></li><li><span>8月</span></li><li><span>9月</span></li><li><span>10月</span></li><li><span>11月</span></li><li><span>12月</span></li></ul>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </nav>
+            <ul id="settle-list" class="history-list">
+                {volist name="orders" id="item" key="k"}
+                    <li>
+                        <label class="w150"><em>买入时间：{$item.create_at}</em><em>卖出时间：{$item.update_at}</em></label>
+                        <label class="w120"><em>买入点位：{$item.price}</em><em>卖出点位：{$item.sell_price}</em></label>
+                        <label class="w130"><em><strong>{$item.name}({$item.code})</strong></em><em>市值：{$item.market_value}</em></label>
+                        <label class="w136"><em><strong class="c-green">{$item.hand}</strong></em><em>数量</em></label>
+                        <label class="w136"><em class="ft16 c-green"> {$item.total_pl}</em><em>交易盈亏</em></label>
+                        <!-- <label class="w120 "><a class="detail_a" href="{:url('web/Stock/stockDetail')}">查看详情</a></label> -->
+                        <label class="w120 hide-important"></label>
+                    </li>
+                {/volist}               
+            </ul>
+            <div id="demo1"></div>
+           <!-- <ul class="pagination"><li class="disabled"><span>«</span></li> <li class="active"><span>1</span></li><li><a href="http://www.fcml888.com/history.html?page=2">2</a></li><li><a href="http://www.fcml888.com/history.html?page=3">3</a></li><li><a href="http://www.fcml888.com/history.html?page=4">4</a></li><li><a href="http://www.fcml888.com/history.html?page=5">5</a></li><li><a href="http://www.fcml888.com/history.html?page=6">6</a></li><li><a href="http://www.fcml888.com/history.html?page=7">7</a></li><li><a href="http://www.fcml888.com/history.html?page=8">8</a></li><li class="disabled"><span>...</span></li><li><a href="http://www.fcml888.com/history.html?page=17">17</a></li><li><a href="http://www.fcml888.com/history.html?page=18">18</a></li> <li><a href="http://www.fcml888.com/history.html?page=2">»</a></li></ul>        </section> -->
+    </section>
+</div>
+
+</div>
+</div>
+{/block}
+{block name="script"}
+<script src="__RESOURCEWEB__/js/history.js"></script>
+<script>
+    layui.use(['laypage', 'layer'], function(){
+        var laypage = layui.laypage
+        ,layer = layui.layer;
+        //总页数大于页码总数
+        laypage.render({
+            elem: 'demo1'
+            ,count: {$total} //数据总数
+            ,limit: 4
+            ,jump: function(obj,first){
+               //obj包含了当前分页的所有参数，比如：
+                // console.log(obj.curr); //得到当前页，以便向服务端请求对应页的数据。
+                if(!first){
+                    var _url = "{:url('web/stock/history')}",
+                    _oData = {page: obj.curr};
+                    $ajaxCustom(_url, _oData, function(res){
+                        console.log(res);
+                        if(res.state == 1){ // 成功
+                            $("#settle-list").empty();
+                            var html = '';
+                            var orders = res.data.orders;
+                            for (const key in orders) {
+                                var a='c-green';
+                                if(parseFloat(orders[key].total_pl) > 0){
+                                    a = 'c-red';
+                                }
+                                html += '<li>'+
+                                   '<label class="w150"><em>买入时间：'+orders[key].create_at_text+'</em><em>卖出时间：'+orders[key].update_at_text+'</em></label>'+
+                                   '<label class="w120"><em>买入点位：'+orders[key].price+'</em><em>卖出点位：'+orders[key].sell_price+'</em></label>'+
+                                    '<label class="w130"><em><strong>'+orders[key].name+'('+orders[key].code+')</strong></em><em>市值：'+orders[key].market_value+'</em></label>'+
+                                    '<label class="w136"><em><strong class="c-green">'+orders[key].hand+'</strong></em><em>数量</em></label>'+
+                                    '<label class="w136"><em class="ft16 '+a+' "> '+orders[key].total_pl+'</em><em>交易盈亏</em></label>'+
+                                    '<label class="w120 hide-important"></label>'+
+                                '</li>';
+                            }
+                            $("#settle-list").append(html);
+                        }
+                    })
+                }
+            }
+        });
+    });
+
+</script>
+{/block}

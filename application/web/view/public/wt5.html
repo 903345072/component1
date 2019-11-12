@@ -1,0 +1,234 @@
+{extend name="layouts/layout_index" /}
+
+{block name="title"}
+满盈策略
+{/block}
+
+{block name="style"}
+<style type="text/css">
+	.weixin-section2{
+		width: 100%;
+		background: url(__RESOURCEWEB__/images/top01.png) no-repeat center center;
+		background-size: cover;
+		/*font-size: 0;*/
+		height: 500px;
+	}
+	.weixin-section2 .w1024{
+		position: relative;
+	}
+	.text_r{
+		width: 515px;
+		float: right;
+		text-align: left;
+		position: relative;
+		margin-top: 160px;
+	}
+	.text_r h1{
+		font-size:34px;
+		font-weight: normal;
+		margin-bottom: 5px;
+	}
+	.text_r h1 span{
+		color: #FE3333;
+	}
+	.titleP{
+		font-size: 20px;
+		margin-bottom: 40px;
+	}
+	.img_box{
+		float: left;
+		width:128px ;
+		height: 180px;
+		text-align: center;
+		margin-right: 105px;
+	}
+	/* 2019年5月10日10:44:53 */
+	.wapper {
+		width: 1000px;
+		margin: 0 auto;
+	}
+	.weizhi {
+		height: 40px;
+		line-height: 40px;
+		font-size: 14px;
+		color: #666;
+	}
+	.weizhi span {
+		color: #d42b2e;
+	}
+	.inside_con {
+		padding: 10px 10px;
+		background: #fff;
+	}
+	.NewList td{
+		border-bottom: 1px dotted #666;
+	}
+	a:hover{
+    	color: #d42b2e !important;
+	}
+</style>
+{/block}
+
+{block name="content"}
+
+<!--点卖区-->
+<div class="br-content">
+	<section class="weixin-section2">
+		<!-- <div class="w1024 br-clearfix">
+			<div class="text_r ">
+				<h1><span>微信端</span>&nbsp;<span>手机端</span>APP全面上线</h1>
+				<p class="titleP">A股点买交易更加轻松、便捷</p>
+				<div class="img_box">
+					<img src="__RESOURCEWEB__/images/ewm1.jpg" style="width: 122px;" height="122px">
+					<p>用微信扫描二维码<br>关注官方公众号</p>
+				</div>
+				<div class="img_box">
+					<img src="__RESOURCEWEB__/images/download.png" style="width: 122px;" height="122px">
+					<p>扫描二维码即可<br>下载APP</p>
+				</div>
+
+			</div>
+		</div> -->
+	</section>
+</div>
+
+<div class="insidebg">
+		<div class="inside wapper">
+			<div class="weizhi">位置<a href="{:url('web/Index/index')}">首页</a> > <a></a> > <span>常见问题</span></div>
+			<div class="inside_con">
+			<!--Content Start-->
+			<table width="100%" align="center" cellspacing="10" cellpadding="0" border="0">
+				
+				<tr>
+					<td align="center" style="font-size: 14px; font-weight: bold; border-top: #ddd dashed 1px; padding-top: 5px;text-align: center"
+						colspan="2">
+						<span id="lblTitle">满盈策略常见问题解答</span>
+					</td>
+				</tr>
+				<tr>
+					<td align="center" style="border-bottom: #ddd dashed 1px; padding-bottom: 5px;text-align:center" colspan="2">
+						发表时间<span id="lblPutdate">2019-06-15</span>
+					</td>
+				</tr>
+				<tr>
+					<td align="left" colspan="2" style="font-size: 14px; font-family: 宋体;">
+						<span id="lblContent">
+							<p
+								style="padding: 0px; margin-top: 10px; margin-bottom: 10px; border: 0px; list-style: none; outline: none; box-sizing: border-box; line-height: 1.8; color: rgb(34, 34, 34); font-family: &quot;Microsoft YaHei&quot;, 微软雅黑, Helvetica, 黑体, Arial, Tahoma; font-size: 13px; white-space: normal; background-color: rgb(255, 255, 255); text-align: center;">
+								<br /></p>
+							<p
+								style="padding: 0px; margin-top: 10px; margin-bottom: 10px; border: 0px; list-style: none; outline: none; box-sizing: border-box; line-height: 1.8; color: rgb(34, 34, 34); font-family: &quot;Microsoft YaHei&quot;, 微软雅黑, Helvetica, 黑体, Arial, Tahoma; font-size: 13px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;">
+								<strong
+									style="padding: 0px; margin: 0px; border: 0px; list-style: none; outline: none; box-sizing: border-box; line-height: 1.8;">一、为什么我策略执行失败？
+								</strong></p>
+							<p
+								style="padding: 0px; margin-top: 10px; margin-bottom: 10px; border: 0px; list-style: none; outline: none; box-sizing: border-box; line-height: 1.8; color: rgb(34, 34, 34); font-family: &quot;Microsoft YaHei&quot;, 微软雅黑, Helvetica, 黑体, Arial, Tahoma; font-size: 13px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;">
+								1、策略人发起的策略60秒后无投资人匹配成功，则本次策略失败，相关所有费用会全额退回到策略人的平台余额中。</p>
+							<p
+								style="padding: 0px; margin-top: 10px; margin-bottom: 10px; border: 0px; list-style: none; outline: none; box-sizing: border-box; line-height: 1.8; color: rgb(34, 34, 34); font-family: &quot;Microsoft YaHei&quot;, 微软雅黑, Helvetica, 黑体, Arial, Tahoma; font-size: 13px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;">
+								2、该策略中的股票盘中涨幅大于等于8%，或者跌幅小于等于-8%，此种情况下投资人匹配存在较大风险所以必须等到股票回落到（-8%，8%）区间内方可再次发起。</p>
+							<p
+								style="padding: 0px; margin-top: 10px; margin-bottom: 10px; border: 0px; list-style: none; outline: none; box-sizing: border-box; line-height: 1.8; color: rgb(34, 34, 34); font-family: &quot;Microsoft YaHei&quot;, 微软雅黑, Helvetica, 黑体, Arial, Tahoma; font-size: 13px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;">
+								3、当策略人所选的股票为高风险股票或者停盘股票时。</p>
+							<p
+								style="padding: 0px; margin-top: 10px; margin-bottom: 10px; border: 0px; list-style: none; outline: none; box-sizing: border-box; line-height: 1.8; color: rgb(34, 34, 34); font-family: &quot;Microsoft YaHei&quot;, 微软雅黑, Helvetica, 黑体, Arial, Tahoma; font-size: 13px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;">
+								4、策略人当天操盘次数限额已用完。</p>
+						
+							<p
+								style="padding: 0px; margin-top: 10px; margin-bottom: 10px; border: 0px; list-style: none; outline: none; box-sizing: border-box; line-height: 1.8; color: rgb(34, 34, 34); font-family: &quot;Microsoft YaHei&quot;, 微软雅黑, Helvetica, 黑体, Arial, Tahoma; font-size: 13px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;">
+								<strong
+									style="padding: 0px; margin: 0px; border: 0px; list-style: none; outline: none; box-sizing: border-box; line-height: 1.8;">二、卖出清算后资金何时返还账户余额？</strong>
+							</p>
+							<p
+								style="padding: 0px; margin-top: 10px; margin-bottom: 10px; border: 0px; list-style: none; outline: none; box-sizing: border-box; line-height: 1.8; color: rgb(34, 34, 34); font-family: &quot;Microsoft YaHei&quot;, 微软雅黑, Helvetica, 黑体, Arial, Tahoma; font-size: 13px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;">
+								一般清算完成后会马上回转至账户余额，但是难免出现异常数据时，为了保证成交数据的正确性，我们会人工核实一遍数据，会造成清算时间一定的延迟。</p>
+				
+
+							<p
+								style="padding: 0px; margin-top: 10px; margin-bottom: 10px; border: 0px; list-style: none; outline: none; box-sizing: border-box; line-height: 1.8; color: rgb(34, 34, 34); font-family: &quot;Microsoft YaHei&quot;, 微软雅黑, Helvetica, 黑体, Arial, Tahoma; font-size: 13px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;">
+								<strong
+									style="padding: 0px; margin: 0px; border: 0px; list-style: none; outline: none; box-sizing: border-box; line-height: 1.8;">三、若清算时出现明显差错怎么办？</strong>
+							</p>
+							<p
+								style="padding: 0px; margin-top: 10px; margin-bottom: 10px; border: 0px; list-style: none; outline: none; box-sizing: border-box; line-height: 1.8; color: rgb(34, 34, 34); font-family: &quot;Microsoft YaHei&quot;, 微软雅黑, Helvetica, 黑体, Arial, Tahoma; font-size: 13px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;">
+								若由于系统、接口等问题造成清算出错，我们会在核实数据后对用户该笔交易做资金修正。</p>							
+							<p 
+								style="padding: 0px; margin-top: 10px; margin-bottom: 10px; border: 0px; list-style: none; outline: none; box-sizing: border-box; line-height: 1.8; color: rgb(34, 34, 34); font-family: &quot;Microsoft YaHei&quot;, 微软雅黑, Helvetica, 黑体, Arial, Tahoma; font-size: 13px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;">
+								<strong
+									style="padding: 0px; margin: 0px; border: 0px; list-style: none; outline: none; box-sizing: border-box; line-height: 1.8;">四、怎么充值？</strong>
+							</p>
+							<p
+								style="padding: 0px; margin-top: 10px; margin-bottom: 10px; border: 0px; list-style: none; outline: none; box-sizing: border-box; line-height: 1.8; color: rgb(34, 34, 34); font-family: &quot;Microsoft YaHei&quot;, 微软雅黑, Helvetica, 黑体, Arial, Tahoma; font-size: 13px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;">
+								您可以从软件充值中心通过第三方快捷支付进行零手续费充值，或者通过微信、支付宝充值。</p>							
+			
+							<p
+								style="padding: 0px; margin-top: 10px; margin-bottom: 10px; border: 0px; list-style: none; outline: none; box-sizing: border-box; line-height: 1.8; color: rgb(34, 34, 34); font-family: &quot;Microsoft YaHei&quot;, 微软雅黑, Helvetica, 黑体, Arial, Tahoma; font-size: 13px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;">
+								<strong
+									style="padding: 0px; margin: 0px; border: 0px; list-style: none; outline: none; box-sizing: border-box; line-height: 1.8;">五、提款到账速度快吗？</strong>
+							</p>
+							<p
+								style="padding: 0px; margin-top: 10px; margin-bottom: 10px; border: 0px; list-style: none; outline: none; box-sizing: border-box; line-height: 1.8; color: rgb(34, 34, 34); font-family: &quot;Microsoft YaHei&quot;, 微软雅黑, Helvetica, 黑体, Arial, Tahoma; font-size: 13px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;">
+								因为目前每天进出款项数量较多，为确保数据准确，需要进行人工审核，一般处理时间需要1-2个工作日，即T+1提款机制，节假日可能会出现延迟。</p>
+							
+							<p
+								style="padding: 0px; margin-top: 10px; margin-bottom: 10px; border: 0px; list-style: none; outline: none; box-sizing: border-box; line-height: 1.8; color: rgb(34, 34, 34); font-family: &quot;Microsoft YaHei&quot;, 微软雅黑, Helvetica, 黑体, Arial, Tahoma; font-size: 13px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;">
+								<strong
+									style="padding: 0px; margin: 0px; border: 0px; list-style: none; outline: none; box-sizing: border-box; line-height: 1.8;">六、为什么我的策略被强平了？
+								</strong></p>
+							<p
+								style="padding: 0px; margin-top: 10px; margin-bottom: 10px; border: 0px; list-style: none; outline: none; box-sizing: border-box; line-height: 1.8; color: rgb(34, 34, 34); font-family: &quot;Microsoft YaHei&quot;, 微软雅黑, Helvetica, 黑体, Arial, Tahoma; font-size: 13px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;">
+								1、策略达到止盈止损线，系统默认达到平仓条件通知投资人进行平仓。</p>
+							<p
+								style="padding: 0px; margin-top: 10px; margin-bottom: 10px; border: 0px; list-style: none; outline: none; box-sizing: border-box; line-height: 1.8; color: rgb(34, 34, 34); font-family: &quot;Microsoft YaHei&quot;, 微软雅黑, Helvetica, 黑体, Arial, Tahoma; font-size: 13px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;">
+								2、延递条件不足（延递费不足或保证金低于最低延递标准比例），系统会通知投资人于次工作日14:30之前进行平仓。</p>
+							<p
+								style="padding: 0px; margin-top: 10px; margin-bottom: 10px; border: 0px; list-style: none; outline: none; box-sizing: border-box; line-height: 1.8; color: rgb(34, 34, 34); font-family: &quot;Microsoft YaHei&quot;, 微软雅黑, Helvetica, 黑体, Arial, Tahoma; font-size: 13px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;">
+								3、在T+1交易日，股票跌幅超过5%，为控制后续跌停风险，系统会通知投资人进行平仓，跌幅达到8%时，系统将强制进行平仓。</p>
+
+							<p
+								style="padding: 0px; margin-top: 10px; margin-bottom: 10px; border: 0px; list-style: none; outline: none; box-sizing: border-box; line-height: 1.8; color: rgb(34, 34, 34); font-family: &quot;Microsoft YaHei&quot;, 微软雅黑, Helvetica, 黑体, Arial, Tahoma; font-size: 13px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;">
+								<strong
+									style="padding: 0px; margin: 0px; border: 0px; list-style: none; outline: none; box-sizing: border-box; line-height: 1.8;">七、为什么有些股票买不了？</strong>
+							</p>
+							<p
+								style="padding: 0px; margin-top: 10px; margin-bottom: 10px; border: 0px; list-style: none; outline: none; box-sizing: border-box; line-height: 1.8; color: rgb(34, 34, 34); font-family: &quot;Microsoft YaHei&quot;, 微软雅黑, Helvetica, 黑体, Arial, Tahoma; font-size: 13px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;">
+								为控制策略人投资风险，本平台规定一下三种股票不允许进行策略交易：</p>
+							<p
+								style="padding: 0px; margin-top: 10px; margin-bottom: 10px; border: 0px; list-style: none; outline: none; box-sizing: border-box; line-height: 1.8; color: rgb(34, 34, 34); font-family: &quot;Microsoft YaHei&quot;, 微软雅黑, Helvetica, 黑体, Arial, Tahoma; font-size: 13px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;">
+								1、次新股：上市不足3个月不可交易。</p>
+							<p
+								style="padding: 0px; margin-top: 10px; margin-bottom: 10px; border: 0px; list-style: none; outline: none; box-sizing: border-box; line-height: 1.8; color: rgb(34, 34, 34); font-family: &quot;Microsoft YaHei&quot;, 微软雅黑, Helvetica, 黑体, Arial, Tahoma; font-size: 13px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;">
+								2、ST股票：具有较明显负面新闻，有退市风险的股票。</p>
+							<p
+								style="padding: 0px; margin-top: 10px; margin-bottom: 10px; border: 0px; list-style: none; outline: none; box-sizing: border-box; line-height: 1.8; color: rgb(34, 34, 34); font-family: &quot;Microsoft YaHei&quot;, 微软雅黑, Helvetica, 黑体, Arial, Tahoma; font-size: 13px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;">
+								3、当日涨跌幅超过8%及连续两个交易日涨跌停的股票不得买入。</p>
+					
+
+						</span>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">&nbsp;
+					</td>
+				</tr>
+				<tr>
+					<td align="left" colspan="2">上一篇：<a href="{:url('web/home/wt4')}">满盈策略常见基础问题解答</a>
+					</td>
+				</tr>
+				<tr>
+					<td align="left" colspan="2">下一篇：<a href="#">没有</a>
+					</td>
+				</tr>
+				
+			</table>
+			<!--Content End-->
+	
+		</div>
+	</div>
+</div>
+<!--遮罩层-->
+<div class="mask"></div>
+{/block}
+
+{block name="script"}
+{/block}

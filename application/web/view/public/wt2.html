@@ -1,0 +1,183 @@
+{extend name="layouts/layout_index" /}
+
+{block name="title"}
+满盈策略
+{/block}
+
+{block name="style"}
+<style type="text/css">
+	.weixin-section2{
+		width: 100%;
+		background: url(__RESOURCEWEB__/images/top01.png) no-repeat center center;
+		background-size: cover;
+		/*font-size: 0;*/
+		height: 500px;
+	}
+	.weixin-section2 .w1024{
+		position: relative;
+	}
+	.text_r{
+		width: 515px;
+		float: right;
+		text-align: left;
+		position: relative;
+		margin-top: 160px;
+	}
+	.text_r h1{
+		font-size:34px;
+		font-weight: normal;
+		margin-bottom: 5px;
+	}
+	.text_r h1 span{
+		color: #FE3333;
+	}
+	.titleP{
+		font-size: 20px;
+		margin-bottom: 40px;
+	}
+	.img_box{
+		float: left;
+		width:128px ;
+		height: 180px;
+		text-align: center;
+		margin-right: 105px;
+	}
+	/* 2019年5月10日10:44:53 */
+	.wapper {
+		width: 1000px;
+		margin: 0 auto;
+	}
+	.weizhi {
+		height: 40px;
+		line-height: 40px;
+		font-size: 14px;
+		color: #666;
+	}
+	.weizhi span {
+		color: #d42b2e;
+	}
+	.inside_con {
+		padding: 10px 10px;
+		background: #fff;
+	}
+	.NewList td{
+		border-bottom: 1px dotted #666;
+	}
+	a:hover{
+    	color: #d42b2e !important;
+	}
+</style>
+{/block}
+
+{block name="content"}
+
+<!--点卖区-->
+<div class="br-content">
+	<section class="weixin-section2">
+		<!-- <div class="w1024 br-clearfix">
+			<div class="text_r ">
+				<h1><span>微信端</span>&nbsp;<span>手机端</span>APP全面上线</h1>
+				<p class="titleP">A股点买交易更加轻松、便捷</p>
+				<div class="img_box">
+					<img src="__RESOURCEWEB__/images/ewm1.jpg" style="width: 122px;" height="122px">
+					<p>用微信扫描二维码<br>关注官方公众号</p>
+				</div>
+				<div class="img_box">
+					<img src="__RESOURCEWEB__/images/download.png" style="width: 122px;" height="122px">
+					<p>扫描二维码即可<br>下载APP</p>
+				</div>
+
+			</div>
+		</div> -->
+	</section>
+</div>
+
+<div class="insidebg">
+		<div class="inside wapper">
+			<div class="weizhi">位置<a href="{:url('web/Index/index')}">首页</a> > <a></a> > <span>常见问题</span></div>
+			<div class="inside_con">
+			<!--Content Start-->
+			<table width="100%" align="center" cellspacing="10" cellpadding="0" border="0">
+            
+				<tr>
+					<td align="center" style="font-size: 14px; font-weight: bold; border-top: #ddd dashed 1px; padding-top: 5px;text-align:center"
+						colspan="2">
+						<span id="lblTitle">《递延费规则说明》</span>
+					</td>
+				</tr>
+				<tr>
+					<td align="center" style="border-bottom: #ddd dashed 1px; padding-bottom: 5px;text-align:center" colspan="2">发表时间<span id="lblPutdate">2019-02-02</span>&nbsp;&nbsp;&nbsp;&nbsp;
+					</td>
+				</tr>
+				<tr>
+					<td align="left" colspan="2" style="font-size: 14px; font-family: 宋体;">
+						<span id="lblContent">
+							<p
+								style="padding: 0px; margin-top: 10px; margin-bottom: 10px; border: 0px; list-style: none; outline: none; box-sizing: border-box; line-height: 1.8; color: rgb(34, 34, 34); font-family: &quot;Microsoft YaHei&quot;, 微软雅黑, Helvetica, 黑体, Arial, Tahoma; font-size: 13px; white-space: normal; background-color: rgb(255, 255, 255); text-align: center;">
+								<br /></p>
+							<p
+								style="padding: 0px; margin-top: 10px; margin-bottom: 10px; border: 0px; list-style: none; outline: none; box-sizing: border-box; line-height: 1.8; color: rgb(34, 34, 34); font-family: &quot;Microsoft YaHei&quot;, 微软雅黑, Helvetica, 黑体, Arial, Tahoma; font-size: 13px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;">
+								1、递延费是平台代投资商收取用于补偿投资商资金占用的费用。以交易本金为基数，计算公式为：持仓市值/10000*19.9元/天，按交易日收取<span
+									style="padding: 0px; margin: 0px; border: 0px; list-style: none; outline: none; box-sizing: border-box; line-height: 1.8; text-align: center; text-indent: 2em;">
+						</span></p>
+						<p
+							style="padding: 0px; margin-top: 10px; margin-bottom: 10px; border: 0px; list-style: none; outline: none; box-sizing: border-box; line-height: 1.8; color: rgb(34, 34, 34); font-family: &quot;Microsoft YaHei&quot;, 微软雅黑, Helvetica, 黑体, Arial, Tahoma; font-size: 13px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;">
+							<span
+								style="padding: 0px; margin: 0px; border: 0px; list-style: none; outline: none; box-sizing: border-box; line-height: 1.8; text-align: center; text-indent: 2em;">2、会员单笔持仓单的递延次数不得超过249次
+								</span> <span
+									style="padding: 0px; margin: 0px; border: 0px; list-style: none; outline: none; box-sizing: border-box; line-height: 1.8; text-align: center; text-indent: 2em;">
+							</span></p>
+						<p
+							style="padding: 0px; margin-top: 10px; margin-bottom: 10px; border: 0px; list-style: none; outline: none; box-sizing: border-box; line-height: 1.8; color: rgb(34, 34, 34); font-family: &quot;Microsoft YaHei&quot;, 微软雅黑, Helvetica, 黑体, Arial, Tahoma; font-size: 13px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;">
+							<span
+								style="padding: 0px; margin: 0px; border: 0px; list-style: none; outline: none; box-sizing: border-box; line-height: 1.8; text-align: center; text-indent: 2em;">3、收取时间：每个交易
+								14:40时收取，成功递延后递延费则不予退还</span> </p> <p
+									style="padding: 0px; margin-top: 10px; margin-bottom: 10px; border: 0px; list-style: none; outline: none; box-sizing: border-box; line-height: 1.8; color: rgb(34, 34, 34); font-family: &quot;Microsoft YaHei&quot;, 微软雅黑, Helvetica, 黑体, Arial, Tahoma; font-size: 13px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;">
+									<span
+										style="padding: 0px; margin: 0px; border: 0px; list-style: none; outline: none; box-sizing: border-box; line-height: 1.8; text-align: center; text-indent: 2em;">
+										4、手动递延时间：每个交易日上午9:30-11:30，下午13:00-14:55 </span> </p> <p
+											style="padding: 0px; margin-top: 10px; margin-bottom: 10px; border: 0px; list-style: none; outline: none; box-sizing: border-box; line-height: 1.8; color: rgb(34, 34, 34); font-family: &quot;Microsoft YaHei&quot;, 微软雅黑, Helvetica, 黑体, Arial, Tahoma; font-size: 13px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;">
+											<span
+												style="padding: 0px; margin: 0px; border: 0px; list-style: none; outline: none; box-sizing: border-box; line-height: 1.8; text-align: center; text-indent: 2em;">
+												5、自动递延：会员在新建策略时开启自动递延开关设置，则平台在每个交易14:50分时对满足递延条件的策略单进行自动递延同时扣除递延费（自动递延开启后则不允许取消）</span> </p> <p
+													style="padding: 0px; margin-top: 10px; margin-bottom: 10px; border: 0px; list-style: none; outline: none; box-sizing: border-box; line-height: 1.8; color: rgb(34, 34, 34); font-family: &quot;Microsoft YaHei&quot;, 微软雅黑, Helvetica, 黑体, Arial, Tahoma; font-size: 13px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;">
+													<span
+														style="padding: 0px; margin: 0px; border: 0px; list-style: none; outline: none; box-sizing: border-box; line-height: 1.8; text-align: center; text-indent: 2em;">
+														6、递延条件：①　账户余额充足，可足够支付递延费； ②　持仓策略不在《萬赢在线风险股名单》中 ③　持仓策略未被标注为ST*类策略（既非高风险策略）
+															④　该持仓单未到达到最大递延次数 </span> </p> <p
+															style="padding: 0px; margin-top: 10px; margin-bottom: 10px; border: 0px; list-style: none; outline: none; box-sizing: border-box; line-height: 1.8; color: rgb(34, 34, 34); font-family: &quot;Microsoft YaHei&quot;, 微软雅黑, Helvetica, 黑体, Arial, Tahoma; font-size: 13px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;">
+															<span
+																style="padding: 0px; margin: 0px; border: 0px; list-style: none; outline: none; box-sizing: border-box; line-height: 1.8; text-align: center; text-indent: 2em;">
+																7、特殊情况处
+																14:40分会员账户余额仅够支付部分持仓单的递延费时，则平台优先按照建仓时间从最先建仓的策略持仓单进行递延依次类推直到账户余额不够扣减下一个持仓单时，剩余持仓单一律平仓处理。
+																	</span> </p> <div><span
+																		style="padding: 0px; margin: 0px; border: 0px; list-style: none; outline: none; box-sizing: border-box; line-height: 1.8; text-align: center; text-indent: 2em;"><br /></span>
+																	</div>
+																	<p><br /></p></span>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">&nbsp;
+					</td>
+				</tr>
+				<tr>
+					<td align="left" colspan="2">上一篇：<a href="#">没有</a>
+					</td>
+				</tr>
+				<tr>
+					<td align="left" colspan="2">下一篇：<a href="{:url('web/home/wt1')}">策略交易费用及资费标</a>
+					</td>
+				</tr>
+				
+			</table>
+			<!--Content End-->
+	
+		</div>
+	</div>
+</div>
+<!--遮罩层-->
+<div class="mask"></div>
+{/block}
+
+{block name="script"}
+{/block}

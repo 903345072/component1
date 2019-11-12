@@ -1,0 +1,212 @@
+{extend name="layouts/layout_index" /}
+
+{block name="title"}
+首页
+{/block}
+
+{block name="style"}
+<style type="text/css">
+	.weixin-section2{
+		width: 100%;
+		background: url(__RESOURCEWEB__/images/top01.png) no-repeat center center;
+		background-size: cover;
+		/*font-size: 0;*/
+		height: 500px;
+	}
+	.weixin-section2 .w1024{
+		position: relative;
+	}
+	.text_r{
+		width: 515px;
+		float: right;
+		text-align: left;
+		position: relative;
+		margin-top: 160px;
+	}
+	.text_r h1{
+		font-size:34px;
+		font-weight: normal;
+		margin-bottom: 5px;
+	}
+	.text_r h1 span{
+		color: #FE3333;
+	}
+	.titleP{
+		font-size: 20px;
+		margin-bottom: 40px;
+	}
+	.img_box{
+		float: left;
+		width:128px ;
+		height: 180px;
+		text-align: center;
+		margin-right: 105px;
+	}
+	/* 2019年5月10日10:44:53 */
+	.wapper {
+		width: 1000px;
+		margin: 0 auto;
+	}
+	.weizhi {
+		height: 40px;
+		line-height: 40px;
+		font-size: 14px;
+		color: #666;
+	}
+	.weizhi span {
+		color: #d42b2e;
+	}
+	.inside_con {
+		padding: 10px 10px;
+		background: #fff;
+	}
+	.NewList td{
+		border-bottom: 1px dotted #666;
+	}
+	.NewList a {
+		color: #666 !important;
+	}
+	a:hover{
+    	color: #d42b2e !important;
+	}
+</style>
+{/block}
+
+{block name="content"}
+
+<!--点卖区-->
+<div class="br-content">
+	<section class="weixin-section2">
+		<!-- <div class="w1024 br-clearfix">
+			<div class="text_r ">
+				<h1><span>微信端</span>&nbsp;<span>手机端</span>APP全面上线</h1>
+				<p class="titleP">A股点买交易更加轻松、便捷</p>
+				<div class="img_box">
+					<img src="__RESOURCEWEB__/images/ewm1.jpg" style="width: 122px;" height="122px">
+					<p>用微信扫描二维码<br>关注官方公众号</p>
+				</div>
+				<div class="img_box">
+					<img src="__RESOURCEWEB__/images/download.png" style="width: 122px;" height="122px">
+					<p>扫描二维码即可<br>下载APP</p>
+				</div>
+
+			</div>
+		</div> -->
+	</section>
+</div>
+
+<div class="insidebg">
+	<div class="inside wapper">
+		<div class="weizhi">位置<a href="{:url('web/Index/index')}">首页</a> > <a></a> > <span>常见问题</span></div>
+		<div class="inside_con">
+			<div class="NewList">
+				<ul>
+					
+					<!-- <li style="line-height: 30px;">
+						<table style="width: 100%;">
+							<tr>
+								<td align="left" width="85%">
+									<img src="__RESOURCEWEB__/images/arr.gif" alt="" />&nbsp;&nbsp;<a href="{:url('web/home/wt1')}"
+										title="策略交易费用及资费标" target="_blank">策略交易费用及资费标</a>
+									<span>
+										
+									</span>
+								</td>
+								<td align="left" style="color: #999999"
+									width="15%">
+									2019-02-10
+											&nbsp;
+								</td>
+							</tr>
+						</table>
+					</li>
+				
+					<li style="line-height: 30px;">
+						<table style="width: 100%;">
+							<tr>
+								<td align="left" width="85%">
+									<img src="__RESOURCEWEB__/images/arr.gif" alt="" />&nbsp;&nbsp;<a href="{:url('web/home/wt2')}"
+										title="《递延费规则说明》" target="_blank">《递延费规则说明》</a>
+									<span>
+										
+									</span>
+								</td>
+								<td align="left" style="color: #999999"
+									width="15%">
+									2019-02-02
+											&nbsp;
+								</td>
+							</tr>
+						</table>
+					</li> -->
+					<li style="line-height: 30px;">
+						<table style="width: 100%;">
+							<tr>
+								<td align="left" width="85%">
+									<img src="__RESOURCEWEB__/images/arr.gif" alt="" />&nbsp;&nbsp;<a href="{:url('web/home/wt3')}"
+										title="满盈策略交易规则" target="_blank">满盈策略交易规则</a>
+									<span>
+										
+									</span>
+								</td>
+								<td align="left" style="color: #999999"
+									width="15%">
+									2019-06-05
+											&nbsp;
+								</td>
+							</tr>
+						</table>
+					</li>
+					<li style="line-height: 30px;">
+						<table style="width: 100%;">
+							<tr>
+								<td align="left" width="85%">
+									<img src="__RESOURCEWEB__/images/arr.gif" alt="" />&nbsp;&nbsp;<a href="{:url('web/home/wt4')}"
+										title="满盈策略常见基础问题解答" target="_blank">满盈策略常见基础问题解答</a>
+									<span>
+										
+									</span>
+								</td>
+								<td align="left" style="color: #999999"
+									width="15%">
+									2019-06-05
+											&nbsp;
+								</td>
+							</tr>
+						</table>
+					</li>
+					<li style="line-height: 30px;">
+						<table style="width: 100%;">
+							<tr>
+								<td align="left" width="85%">
+									<img src="__RESOURCEWEB__/images/arr.gif" alt="" />&nbsp;&nbsp;<a href="{:url('web/home/wt5')}"
+										title="满盈策略常见基础问题解答" target="_blank">满盈策略常见问题解答</a>
+									<span>
+										
+									</span>
+								</td>
+								<td align="left" style="color: #999999"
+									width="15%">
+									2019-06-05
+											&nbsp;
+								</td>
+							</tr>
+						</table>
+					</li>
+						
+				</ul>
+				<div class="clear">
+				</div>
+				<div class="page_box" style="width: 100%; padding-top: 5px; padding-bottom: 8px;">
+					
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!--遮罩层-->
+<div class="mask"></div>
+{/block}
+
+{block name="script"}
+{/block}

@@ -1,0 +1,202 @@
+{extend name="layouts/layout_index" /}
+
+{block name="title"}
+满盈策略
+{/block}
+
+{block name="style"}
+<link rel="stylesheet" type="text/css" href="__RESOURCEWEB__/css/member.css">
+{/block}
+
+{block name="body"}
+<body class="membercenter logged-in">
+{/block}
+{block name="content"}
+
+<!--个人中心-充值-->
+<div class="br-content">
+    <div class="w1200">
+        <!--主体-->
+        <section class="page-main page-personal">
+            <div class="container clearfix">
+                <!--public左边-->
+                <aside class="col-left">
+                    <div class="userinfo">
+                        <form name="user_head" id="user_head">
+                            <input type="file" name="myfile222" id="img_upload">
+                            <div class="img_download">
+                                <img class="user-pic" id="headImg" src="__RESOURCEWEB__/images/user.png">
+                            </div>
+                        </form>
+                        <p class="user-info">Hi，<strong id="shared_layout_mem_lnm">{$user.nickname}</strong></p>
+                    </div>
+                    <h4 class="new-head-line"><span class="user-5"></span>会员中心</h4>
+                    <nav id="personal-nav" class="left-nav">
+                        <ul>
+                            <li class=""><a href="{:url('web/User/index')}">我的首页&nbsp;<span class="mem_gt">&gt;</span></a></li>
+                            <li class="active"><a href="{:url('web/User/bankCards')}">银行卡管理&nbsp;<span class="mem_gt">&gt;</span></a></li>
+                            <li class=""><a href="{:url('web/User/payMent')}">充值&nbsp;<span class="mem_gt">&gt;</span></a></li>
+                            <!-- <li class=""><a href="{:url('web/User/withdraw')}">提现&nbsp;<span class="mem_gt">&gt;</span></a></li> -->
+                            <!-- <li class=""><a href="" style="display: none;">推广赚钱&nbsp;<span class="mem_gt">&gt;</span></a></li> -->
+                        </ul>
+                    </nav>
+                </aside>
+                <!--右边-->
+                <div id="page_member_bankcard" class="col-main">
+                    <div class="personal-main">
+                        <!-- <div class="my-card-wrapper" style="" id="my-bank-cards">
+                            <h3 class="new-my-card-title">我的银行卡</h3>
+                            <div class="slide-wrapper new-my-card-slide slide-disabled" data-current="1">
+                                <ul id="membc_list" class="slides clearfix" style="left: 0px;">
+                                    <li class="bank">
+                                        <div class="bank-card bank-card-gs"><p class="bank-card-end-num">5064</p>
+                                            <div class="link-wrapper"><a href="javascript:void(0)" bankid="2281" class="bank_check">查看</a>
+                                                <a href="javascript:void(0)" bankid="2281" class="bank_delete">删除</a></div></div>
+                                    </li>
+                                </ul>
+                                <a href="javascript:;" class="link-prev icon icon-chevron-small-left link-prev-disabled"></a>
+                                <a href="javascript:;" class="link-next icon icon-chevron-small-right link-next-disabled"></a>
+                            </div>
+                        </div> -->
+                        <form id="with-drawForm" method="post">
+                        <div class="add-card-wrapper" id="edit_bank_cards">
+                            <!--<h3 class="new-head"><span class="user-6"></span>请添加银行卡信息</h3>-->
+                            <form id="with-drawForm" method="post">
+                                <h3 class="card_title">添加(修改)银行卡<span style="font-size: 12px;color: #999;"> (每人最多绑定一张银行卡)</span></h3>
+                                <div class="field-row group">
+                                    <label>开 户 人</label>
+                                    <div class="field-val"><input type="text" class="text" name="bank_user" id="姓名i"  value="{$user.has_one_card.bank_user|default=''}"></div>
+                                    <!-- <div class="field-txt" id="名称c"></div> -->
+                                </div>
+                                <div id="realName_err1" class="error-wrapper" style="margin-left:120px; display:none"><div><i class="icon icon-x-altx-alt"></i>请先进行实名认证</div>
+                                </div>
+                                <div class="field-row group">
+                                    <label>开户银行</label>
+                                    <div class="field-val">
+                                        <select id="银行s" class="long-select" val="建设银行" name="bank_name">
+                                            {volist name="banks" id="item"}
+                                                <option value="{$item.name}" {eq name="item.name" value="$user.has_one_card.bank_name"}selected{/eq}>{$item.name}</option>
+                                            {/volist}
+                                            <!-- <option value="">请选择</option><option value="1">工商银行</option><option value="2">农业银行</option><option value="3">中国银行</option><option value="4" selected="selected">建设银行</option><option value="6">中信银行</option><option value="7">光大银行</option><option value="8">华夏银行</option><option value="10">广发银行</option><option value="11">平安银行</option><option value="12">招商银行</option><option value="13">兴业银行</option><option value="14">上海浦发银行</option><option value="16">浙商银行</option><option value="17">渤海银行</option><option value="18">徽商银行</option><option value="19">邮政储蓄银行</option><optgroup label="暂不支持" disabled="disabled"><option>交通银行</option><option>民生银行</option><option>恒丰银行</option></optgroup> -->
+                                        </select>
+                                    </div>
+                                    <div class="field-txt" id="银行c"></div>
+                                </div>
+                                <div id="bankId_err1" class="error-wrapper" style="margin-left:120px; display:none"><div><i class="icon icon-x-altx-alt"></i>暂不支持该银行作为实名认证卡</div></div>
+                                <div id="khyh_err1" class="error-wrapper" style="margin-left:120px; display:none"><div><i class="icon icon-x-altx-alt"></i>未选择银行</div></div>
+                                <div class="field-row group">
+                                    <label>所在省份</label>
+                                    <div class="field-val">
+                                        <select class="form-control" name="bank_province">
+                                            {volist name="provinces" id="item"}
+                                            <option value="{$item.id}" {eq name="item.id" value="$user.has_one_card.bank_province"}selected{/eq}>{$item.name}</option>
+                                            {/volist}
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="field-row group">
+                                    <label>所在城市 </label>
+                                    <div class="field-val">
+                                        <select class="form-control" name="bank_city">
+                                            {volist name="citys" id="item"}
+                                            <option value="{$item.id}" {eq name="item.id" value="$user.has_one_card.bank_city"}selected{/eq}>{$item.name}</option>
+                                            {/volist}
+                                        </select>
+                                    </div>
+                                </div>
+                                <div id="khzh_err1" class="error-wrapper" style="margin-left:120px; display:none"><div><i class="icon icon-x-altx-alt"></i>未选择开户支行</div></div>
+                                <div class="field-row group">
+                                    <label>支行名称</label>
+                                    <div class="field-val"><input type="text" class="text" name="bank_address" id="名称i" placeholder="如宁波北仑分行/上海浦东分行等" value="{$user.has_one_card.bank_address|default=''}"></div>
+                                    <div class="field-txt" id="名称c"></div>
+                                </div>
+                                <div id="zh_err1" class="error-wrapper" style="margin-left:120px; display:none"><div><i class="icon icon-x-altx-alt"></i>未填写支行</div></div>
+                                <div class="field-row group">
+                                    <label>银行卡号</label>
+                                    <div class="field-val"><input type="text" class="text"  name="bank_card" id="银行卡号i" value="{$user.has_one_card.bank_card|default=''}"></div>
+                                    <div class="field-txt" id="银行卡号c"></div>
+                                </div>
+                                <div class="field-row group">
+                                    <label>身份证号码</label>
+                                    <div class="field-val"><input type="text" class="text" name="id_card" value="{$user.has_one_card.id_card|default=''}" placeholder="请输入身份证号"></div>
+                                    <div class="field-txt" id="银行卡号c"></div>
+                                </div>
+
+                                <div class="field-row group">
+                                    <label>预留手机号</label>
+                                    <div class="field-val"><input type="text" class="text" name="bank_mobile" value="{$user.has_one_card.bank_mobile|default=''}" placeholder="请输入银行预留手机号"></div>
+                                    <div class="field-txt" id="银行卡号c"></div>
+                                </div>
+                                <div class="btn-row group">
+                                    <button id="submitBtn" type="button" class="btn btn-pri">提 交</button>
+                                    <a id="card-save" href="javascript:void(0);" class="btn btn-pri" style="display:none">保 存</a>
+                                </div>
+                            </form>  
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</div>
+{/block}
+{block name="script"}
+<script>
+    $(function(){
+        $("select[name='bank_province']").on("change", function(){
+        var _id = $(this).val();
+        $.ajax({
+            url: "{:url('index/Index/getRegion')}",
+            type: "POST",
+            data: {id:_id},
+            dataType: "json",
+            success: function(_resp) {
+                console.log(_resp);
+                if(_resp.state){
+                    if(_resp.data){
+                        var _html = "";
+                        for(var _key in _resp.data){
+                            _html += '<option value="' + _resp.data[_key].id + '">'+ _resp.data[_key].name +'</option>';
+                        }
+                        $("select[name='bank_city']").empty().append($(_html));
+					}
+                    return false;
+                }else{
+                    $alert(_resp.info);
+                }
+            }
+        });
+    });
+    $("#submitBtn").click(function () {
+        console.log(11111)
+        var _url = "{:url('index/User/modifyCard')}",
+            _oData = $("form").serialize();
+        $ajaxCustom(_url, _oData, function(res){
+            if(res.state){ // 登录成功
+                layer.alert("银行卡绑定成功！");
+                setTimeout(function(){
+
+                    window.location.reload();
+                    // var _callback = "{$callback|default=''}";
+                    // if(_callback == ''){
+                    //     // if(res.data.url){
+                    //     // }else{
+                    //     //     window.location.href = "/";
+                    //     // }
+					// }else{
+                    //     window.location.href = _callback;
+					// }
+                }, 1000);
+            }else{
+                layer.alert(res.info);
+            }
+        });
+    });
+})
+
+</script>
+{/block}
+
+
+
+

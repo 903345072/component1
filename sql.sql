@@ -1,0 +1,1 @@
+INSERT INTO `stock`.`stock_config` (`name`, `val`, `alias`) VALUES (NULL, '公告', 'service_notice');
