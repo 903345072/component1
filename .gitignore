@@ -1,9 +1,0 @@
-.idea
-composer.lock
-*.log
-runtime
-.DS_Store
-/public/plate.json
-shell
-.user.ini
-/application/database.php

@@ -1,0 +1,184 @@
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:88:"/www/wwwroot/125.maoerle.cn/www_fuda/public/../application/index/view/home/register.html";i:1568109530;}*/ ?>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>注册</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+	<link href="/resource/home/css/mui.min.css" rel="stylesheet">
+	<link href="/resource/home/css/person.css" rel="stylesheet">
+	<style>
+		.risk_content1{
+			width: 80%;
+			background: #fff;
+			margin-top: 100px;
+			position: absolute;
+			left: 10%;
+			height: 360px;
+			overflow: hidden;
+			border-radius: 6px;
+		}
+		.risk_title1{
+			margin: 0;
+			font-size: 15px;
+			font-weight: 400;
+			background-color: #071e69;
+			color: #fff;
+			height: 40px;
+			line-height: 40px;
+			padding: 0 20px;
+		}
+		.risk_text1{
+			max-height: 270px;
+			overflow-y: auto;
+			padding: 0 10px;
+		}
+		.read_risk_btn{
+			position: absolute;
+			width: 100%;
+			text-align: center;
+			height: 40px;
+			line-height: 40px;
+			color: #071e69;
+			font-size: 14px;
+			left: 0;
+			bottom: 0;
+			border-top: 1px solid #ececec;
+			margin: 0;
+		}
+	</style>
+</head>
+<body>
+	<header class="has_back_top ">
+		注册
+		<a href="javascript:history.go(-1)" class="back_icon">
+			<img src="/resource/home/img/back_icon.png">
+		</a>
+	</header>
+
+	<form class="my_from">
+		<input name="parent_id" type="text" value="<?php echo (isset($pid) && ($pid !== '')?$pid:0); ?>" />
+		<div class="my_form_group">
+			<input type="text" placeholder="请填写机构编码" id="orgCode" value="<?php echo (isset($ring_code) && ($ring_code !== '')?$ring_code:''); ?>" name="orgCode" />
+		</div>
+		<div class="my_form_group">
+			<input type="text" placeholder="请输入手机号码" id="mobile" name="mobile" />
+		</div>
+		<div class="my_form_group">
+			<input type="text" placeholder="请输入真实姓名" id="nickname" name="nickname" />
+		</div>
+		<div class="my_form_group">
+			<input type="password" placeholder="请输入6~16位密码" id="password" name="password" />
+		</div>
+		<div class="my_form_group">
+			<input type="password" placeholder="请再次输入6~16位密码" id="rePassword" name="rePassword" />
+		</div>
+		<div class="my_form_group has_get">
+			<input type="text" placeholder="请输入验证码" id="code" name="code" />
+			<span class="get_btn">获取短信验证码</span>
+		</div>
+		<div class="my_form_group">
+			<input class="sub_btn" type="button"  value="立刻注册" id="submit" />
+		</div>
+		<div class="my_form_group">
+			<div style="width:22px; display: inline-block;" class="mui-input-row mui-checkbox mui-left select_btn lf">
+				<label></label>
+				<input id="isRead" name="checkbox" value="Item 1" type="checkbox">
+			</div>
+			<div class="lf read_tip">
+				提交注册表示您已经阅读并同意<span>用户协议</span>相关内容
+			</div>
+		</div>
+	</form>
+	<!-- 风险提示书 - start -->
+	<div class="risk_mask">
+	<div class="risk_content1">
+		<p class="risk_title1">满盈策略居间服务协议</p>
+		<div class="risk_text1">
+				<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;策略人通过本平台参与沪深A股交易合作将涉及建仓费和履约保证金的发生。如策略人参与持仓时间为T＋1｜D的交易合作还将涉及延递费的发生。本平台主要为策略人与投资人做好，策略撮合.
+					<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;第一条释义
+					<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1:  网站平台：由满盈策略运营，为投资人与策略人做好居间服务，居间服务内容包括但不限于交易合作撮合与交易策略通知与交易信息发布等。
+					<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2：投资人：指通过本网站注册或线下合作成为投资人用户，负责按股票投资策略并利用自有资金和证券账户进行交易的自然人。
+					<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3：策略人：指向投资人发出策略提供方
+					<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;第二条声明与承诺
+					<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1、本平台声明，以上所有涉及资费标准的数据，均为平台根据市场行情阶段性调整的实时标准，该数据具有一定浮动性。
+					<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2、平台关于以上资费标准不做不予调整的承诺，平台将根据客观的市场行情对资费标准进行适时调整，关于调整结果将及时告知所有平台用户，并将一如既往地尊重用户在新的资费条件下是否选择继续与平台合作的权利。
+					<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;湖北满盈策略网络科技有限公司
+				</p>
+				<p style="text-align: right;">
+					投资人与策略人交易合作协议<br/>
+					满盈策略交易居间服务协议
+				</p>
+			</div>
+		<p class="read_risk_btn">我已阅读并同意</p>
+	</div>
+    </div>
+    <!-- 风险提示书 - end -->
+	<script src="/resource/home/js/jquery-2.2.0.min.js"></script>
+	<script src="/resource/home/js/mui.min.js"></script>
+	<script type="text/javascript" src="/resource/home/js/common.js"></script>
+	<script type="text/javascript">
+		var wait = 60;
+		function time(obj) {
+			if (wait == 0) {
+				obj.removeClass('disabled');           
+				obj.html('重新获取验证码');
+				wait = 60;
+			} else {
+				obj.addClass('disabled');
+				obj.html('重新发送(' + wait + ')');
+				wait--;
+				setTimeout(function() {
+					time(obj);
+				},
+				1000)
+			}
+		}
+        $(".get_btn").click(function(){
+            var _url = "<?php echo url('index/Home/captcha'); ?>",
+				_mobile = $("input[name='mobile']").val(),
+                _oData = {mobile:_mobile, act:"register"};
+            $ajaxCustom(_url, _oData, function(res){
+                if(res.state){ // 登录成功
+                    $alert("发送成功");
+					//$("input[name='code']").val(res.data.code);
+					time($('.get_btn'));
+                }else{
+                    $alert(res.info);
+                }
+            });
+		});
+
+		// 协议开
+		$('.read_tip').click(function(){
+			$('.risk_mask').show();
+		})
+		// 协议开
+		$('.read_risk_btn').click(function(){
+			$('.risk_mask').hide();
+		})
+        $("#submit").click(function(e){ 
+        	if( !$("#isRead").is(':checked') ){
+        		$alert("请仔细阅读用户协议");
+        		return false;
+        	}
+            var _url = "<?php echo url('index/Home/register'); ?>",
+				_oData = $("form").serialize();
+            $ajaxCustom(_url, _oData, function(res){
+                if(res.state){ // 登录成功
+                    $alert("注册成功");
+                    setTimeout(function(){
+                        if(res.data.url){
+                            window.location.href = res.data.url;
+						}else{
+                            window.location.href = "/";
+                        }
+					}, 1000);
+                }else{
+                    $alert(res.info);
+                }
+            });
+		});
+	</script>
+</body>
+</html>

@@ -1,0 +1,158 @@
+---------------------------------------------------------------
+[ 2019-11-13T16:30:43+08:00 ] 0.0.0.0 GET /
+[ info ] localhost:333/ [运行时间：0.737462s][吞吐率：1.36req/s] [内存消耗：5,502.60kb] [文件加载：91]
+[ info ] [ LANG ] C:\code\manyingcelue\www_fuda\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'CCKF_visitor_id_164246=1232976055; POP800_VISIT_TIMES=3; PAGE_VIEW_TIMES=25; POP800_VISITOR_ID_L=31BE25E9B284BAA77D029CBC7089AD51',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'host' => 'localhost:333',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\code\manyingcelue\www_fuda\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\code\manyingcelue\www_fuda\public/../application/index\view\index\index.html [ array (
+  0 => 'bestUserList',
+  1 => 'bestStrategyList',
+  2 => 'followIds',
+  3 => 'userNotice',
+  4 => 'stocks',
+  5 => 'lists',
+  6 => 'notice',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.076532s ] mysql:host=127.0.0.1;port=root;dbname=stock;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `stock_user` [ RunTime:0.056403s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_user` LIMIT 1 [ RunTime:0.003408s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `stock_user_optional` [ RunTime:0.003733s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_user_optional` WHERE  `user_id` = 2 [ RunTime:0.005696s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `stock_list` [ RunTime:0.004175s ]
+[ sql ] [ SQL ] SELECT `full_code` FROM `stock_list` WHERE  `code` IN ('300052','002352','000001','000002','000004','000005','000006','000007','000008','000009','000972','600776','600485') GROUP BY `code` [ RunTime:0.003769s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_user` [ RunTime:0.000607s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `stock_order` [ RunTime:0.007710s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `stock_order` WHERE  `state` = 2  AND `user_id` = 2 LIMIT 1 [ RunTime:0.009361s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `stock_order` WHERE  `state` = 2  AND `user_id` = 2  AND `profit` > 0 LIMIT 1 [ RunTime:0.000525s ]
+[ sql ] [ SQL ] SELECT SUM(sell_price) AS tp_sum FROM `stock_order` WHERE  `state` = 2  AND `user_id` = 2  AND `profit` > 0 LIMIT 1 [ RunTime:0.000424s ]
+[ sql ] [ SQL ] SELECT SUM(price) AS tp_sum FROM `stock_order` WHERE  `state` = 2  AND `user_id` = 2  AND `profit` > 0 LIMIT 1 [ RunTime:0.000431s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `stock_order` WHERE  `state` = 2  AND `user_id` = 22 LIMIT 1 [ RunTime:0.002954s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `stock_order` WHERE  `state` = 2  AND `user_id` = 22  AND `profit` > 0 LIMIT 1 [ RunTime:0.000431s ]
+[ sql ] [ SQL ] SELECT SUM(sell_price) AS tp_sum FROM `stock_order` WHERE  `state` = 2  AND `user_id` = 22  AND `profit` > 0 LIMIT 1 [ RunTime:0.000351s ]
+[ sql ] [ SQL ] SELECT SUM(price) AS tp_sum FROM `stock_order` WHERE  `state` = 2  AND `user_id` = 22  AND `profit` > 0 LIMIT 1 [ RunTime:0.000343s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `stock_order` WHERE  `state` = 2  AND `user_id` = 23 LIMIT 1 [ RunTime:0.003042s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `stock_order` WHERE  `state` = 2  AND `user_id` = 23  AND `profit` > 0 LIMIT 1 [ RunTime:0.000599s ]
+[ sql ] [ SQL ] SELECT SUM(sell_price) AS tp_sum FROM `stock_order` WHERE  `state` = 2  AND `user_id` = 23  AND `profit` > 0 LIMIT 1 [ RunTime:0.000428s ]
+[ sql ] [ SQL ] SELECT SUM(price) AS tp_sum FROM `stock_order` WHERE  `state` = 2  AND `user_id` = 23  AND `profit` > 0 LIMIT 1 [ RunTime:0.000318s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `stock_order` WHERE  `state` = 2  AND `user_id` = 24 LIMIT 1 [ RunTime:0.003748s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `stock_order` WHERE  `state` = 2  AND `user_id` = 24  AND `profit` > 0 LIMIT 1 [ RunTime:0.000467s ]
+[ sql ] [ SQL ] SELECT SUM(sell_price) AS tp_sum FROM `stock_order` WHERE  `state` = 2  AND `user_id` = 24  AND `profit` > 0 LIMIT 1 [ RunTime:0.000277s ]
+[ sql ] [ SQL ] SELECT SUM(price) AS tp_sum FROM `stock_order` WHERE  `state` = 2  AND `user_id` = 24  AND `profit` > 0 LIMIT 1 [ RunTime:0.000257s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `stock_order` WHERE  `state` = 2  AND `user_id` = 25 LIMIT 1 [ RunTime:0.000249s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `stock_order` WHERE  `state` = 2  AND `user_id` = 25  AND `profit` > 0 LIMIT 1 [ RunTime:0.000253s ]
+[ sql ] [ SQL ] SELECT SUM(sell_price) AS tp_sum FROM `stock_order` WHERE  `state` = 2  AND `user_id` = 25  AND `profit` > 0 LIMIT 1 [ RunTime:0.000258s ]
+[ sql ] [ SQL ] SELECT SUM(price) AS tp_sum FROM `stock_order` WHERE  `state` = 2  AND `user_id` = 25  AND `profit` > 0 LIMIT 1 [ RunTime:0.000296s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `stock_order` WHERE  `state` = 2  AND `user_id` = 26 LIMIT 1 [ RunTime:0.002806s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `stock_order` WHERE  `state` = 2  AND `user_id` = 26  AND `profit` > 0 LIMIT 1 [ RunTime:0.000367s ]
+[ sql ] [ SQL ] SELECT SUM(sell_price) AS tp_sum FROM `stock_order` WHERE  `state` = 2  AND `user_id` = 26  AND `profit` > 0 LIMIT 1 [ RunTime:0.000287s ]
+[ sql ] [ SQL ] SELECT SUM(price) AS tp_sum FROM `stock_order` WHERE  `state` = 2  AND `user_id` = 26  AND `profit` > 0 LIMIT 1 [ RunTime:0.001111s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `stock_order` WHERE  `state` = 2  AND `user_id` = 27 LIMIT 1 [ RunTime:0.000491s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `stock_order` WHERE  `state` = 2  AND `user_id` = 27  AND `profit` > 0 LIMIT 1 [ RunTime:0.000472s ]
+[ sql ] [ SQL ] SELECT SUM(sell_price) AS tp_sum FROM `stock_order` WHERE  `state` = 2  AND `user_id` = 27  AND `profit` > 0 LIMIT 1 [ RunTime:0.000428s ]
+[ sql ] [ SQL ] SELECT SUM(price) AS tp_sum FROM `stock_order` WHERE  `state` = 2  AND `user_id` = 27  AND `profit` > 0 LIMIT 1 [ RunTime:0.000474s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `stock_order` WHERE  `state` = 2  AND `user_id` = 29 LIMIT 1 [ RunTime:0.000316s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `stock_order` WHERE  `state` = 2  AND `user_id` = 29  AND `profit` > 0 LIMIT 1 [ RunTime:0.000268s ]
+[ sql ] [ SQL ] SELECT SUM(sell_price) AS tp_sum FROM `stock_order` WHERE  `state` = 2  AND `user_id` = 29  AND `profit` > 0 LIMIT 1 [ RunTime:0.000278s ]
+[ sql ] [ SQL ] SELECT SUM(price) AS tp_sum FROM `stock_order` WHERE  `state` = 2  AND `user_id` = 29  AND `profit` > 0 LIMIT 1 [ RunTime:0.000316s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `stock_user_follow` [ RunTime:0.003518s ]
+[ sql ] [ SQL ] SELECT `follow_id` FROM `stock_user_follow` WHERE  `fans_id` IS NULL [ RunTime:0.000270s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `stock_user_notice` [ RunTime:0.003503s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_user_notice` WHERE  `user_id` IS NULL  AND `read` = 1 ORDER BY `read`  asc,`id`  desc [ RunTime:0.000327s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `stock_config` [ RunTime:0.004520s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_config` WHERE  `alias` = 'service_notice' LIMIT 1 [ RunTime:0.000648s ]
+---------------------------------------------------------------
+[ 2019-11-13T16:30:45+08:00 ] 0.0.0.0 GET /user/home.html
+[ info ] localhost:333/user/home.html [运行时间：0.043303s][吞吐率：23.09req/s] [内存消耗：2,973.09kb] [文件加载：57]
+[ info ] [ LANG ] C:\code\manyingcelue\www_fuda\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'User',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'CCKF_visitor_id_164246=1232976055; POP800_VISIT_TIMES=3; PAGE_VIEW_TIMES=25; POP800_VISITOR_ID_L=31BE25E9B284BAA77D029CBC7089AD51',
+  'referer' => 'http://localhost:333/',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'host' => 'localhost:333',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-13T16:30:45+08:00 ] 0.0.0.0 GET /login.html
+[ info ] localhost:333/login.html [运行时间：0.030558s][吞吐率：32.72req/s] [内存消耗：2,890.19kb] [文件加载：56]
+[ info ] [ LANG ] C:\code\manyingcelue\www_fuda\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Home',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'CCKF_visitor_id_164246=1232976055; POP800_VISIT_TIMES=3; PAGE_VIEW_TIMES=25; POP800_VISITOR_ID_L=31BE25E9B284BAA77D029CBC7089AD51; PHPSESSID=lu16q65j58qab76l1t8ej66fr0',
+  'connection' => 'close',
+  'referer' => 'http://localhost:333/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'host' => 'localhost:333',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Home->login[ C:\code\manyingcelue\www_fuda\application\index\controller\Home.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] C:\code\manyingcelue\www_fuda\public/../application/index\view\home\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File

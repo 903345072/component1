@@ -1,0 +1,2559 @@
+---------------------------------------------------------------
+[ 2019-11-07T23:56:22+08:00 ] 101.132.75.111 GET /cron/sell
+[ info ] 125.whyuejian.com/cron/sell [运行时间：0.030821s][吞吐率：32.45req/s] [内存消耗：2,952.81kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/125.maoerle.cn/www_fuda/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Cron',
+    2 => 'scanOrderSell',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'curl/7.29.0',
+  'host' => '125.whyuejian.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cron->scanOrderSell[ /www/wwwroot/125.maoerle.cn/www_fuda/application/index/controller/Cron.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T23:56:24+08:00 ] 101.132.75.111 GET /cron/sell
+[ info ] 125.whyuejian.com/cron/sell [运行时间：0.030120s][吞吐率：33.20req/s] [内存消耗：2,952.48kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/125.maoerle.cn/www_fuda/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Cron',
+    2 => 'scanOrderSell',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'curl/7.29.0',
+  'host' => '125.whyuejian.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cron->scanOrderSell[ /www/wwwroot/125.maoerle.cn/www_fuda/application/index/controller/Cron.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T23:56:26+08:00 ] 101.132.75.111 GET /cron/sell
+[ info ] 125.whyuejian.com/cron/sell [运行时间：0.029987s][吞吐率：33.35req/s] [内存消耗：2,952.48kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/125.maoerle.cn/www_fuda/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Cron',
+    2 => 'scanOrderSell',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'curl/7.29.0',
+  'host' => '125.whyuejian.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cron->scanOrderSell[ /www/wwwroot/125.maoerle.cn/www_fuda/application/index/controller/Cron.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T23:56:28+08:00 ] 101.132.75.111 GET /cron/sell
+[ info ] 125.whyuejian.com/cron/sell [运行时间：0.031552s][吞吐率：31.69req/s] [内存消耗：2,952.48kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/125.maoerle.cn/www_fuda/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Cron',
+    2 => 'scanOrderSell',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'curl/7.29.0',
+  'host' => '125.whyuejian.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cron->scanOrderSell[ /www/wwwroot/125.maoerle.cn/www_fuda/application/index/controller/Cron.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T23:56:30+08:00 ] 101.132.75.111 GET /cron/sell
+[ info ] 125.whyuejian.com/cron/sell [运行时间：0.030256s][吞吐率：33.05req/s] [内存消耗：2,952.48kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/125.maoerle.cn/www_fuda/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Cron',
+    2 => 'scanOrderSell',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'curl/7.29.0',
+  'host' => '125.whyuejian.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cron->scanOrderSell[ /www/wwwroot/125.maoerle.cn/www_fuda/application/index/controller/Cron.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T23:56:32+08:00 ] 101.132.75.111 GET /cron/sell
+[ info ] 125.whyuejian.com/cron/sell [运行时间：0.029611s][吞吐率：33.77req/s] [内存消耗：2,952.48kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/125.maoerle.cn/www_fuda/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Cron',
+    2 => 'scanOrderSell',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'curl/7.29.0',
+  'host' => '125.whyuejian.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cron->scanOrderSell[ /www/wwwroot/125.maoerle.cn/www_fuda/application/index/controller/Cron.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T23:56:34+08:00 ] 101.132.75.111 GET /cron/sell
+[ info ] 125.whyuejian.com/cron/sell [运行时间：0.029554s][吞吐率：33.84req/s] [内存消耗：2,952.48kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/125.maoerle.cn/www_fuda/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Cron',
+    2 => 'scanOrderSell',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'curl/7.29.0',
+  'host' => '125.whyuejian.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cron->scanOrderSell[ /www/wwwroot/125.maoerle.cn/www_fuda/application/index/controller/Cron.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T23:56:36+08:00 ] 101.132.75.111 GET /cron/sell
+[ info ] 125.whyuejian.com/cron/sell [运行时间：0.028384s][吞吐率：35.23req/s] [内存消耗：2,952.48kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/125.maoerle.cn/www_fuda/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Cron',
+    2 => 'scanOrderSell',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'curl/7.29.0',
+  'host' => '125.whyuejian.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cron->scanOrderSell[ /www/wwwroot/125.maoerle.cn/www_fuda/application/index/controller/Cron.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T23:56:38+08:00 ] 101.132.75.111 GET /cron/sell
+[ info ] 125.whyuejian.com/cron/sell [运行时间：0.028618s][吞吐率：34.94req/s] [内存消耗：2,952.48kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/125.maoerle.cn/www_fuda/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Cron',
+    2 => 'scanOrderSell',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'curl/7.29.0',
+  'host' => '125.whyuejian.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cron->scanOrderSell[ /www/wwwroot/125.maoerle.cn/www_fuda/application/index/controller/Cron.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T23:56:40+08:00 ] 101.132.75.111 GET /cron/sell
+[ info ] 125.whyuejian.com/cron/sell [运行时间：0.031431s][吞吐率：31.82req/s] [内存消耗：2,952.48kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/125.maoerle.cn/www_fuda/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Cron',
+    2 => 'scanOrderSell',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'curl/7.29.0',
+  'host' => '125.whyuejian.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cron->scanOrderSell[ /www/wwwroot/125.maoerle.cn/www_fuda/application/index/controller/Cron.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T23:56:42+08:00 ] 101.132.75.111 GET /cron/sell
+[ info ] 125.whyuejian.com/cron/sell [运行时间：0.033547s][吞吐率：29.81req/s] [内存消耗：2,952.48kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/125.maoerle.cn/www_fuda/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Cron',
+    2 => 'scanOrderSell',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'curl/7.29.0',
+  'host' => '125.whyuejian.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cron->scanOrderSell[ /www/wwwroot/125.maoerle.cn/www_fuda/application/index/controller/Cron.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T23:56:44+08:00 ] 101.132.75.111 GET /cron/sell
+[ info ] 125.whyuejian.com/cron/sell [运行时间：0.030711s][吞吐率：32.56req/s] [内存消耗：2,952.48kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/125.maoerle.cn/www_fuda/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Cron',
+    2 => 'scanOrderSell',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'curl/7.29.0',
+  'host' => '125.whyuejian.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cron->scanOrderSell[ /www/wwwroot/125.maoerle.cn/www_fuda/application/index/controller/Cron.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T23:56:46+08:00 ] 101.132.75.111 GET /cron/sell
+[ info ] 125.whyuejian.com/cron/sell [运行时间：0.030621s][吞吐率：32.66req/s] [内存消耗：2,952.48kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/125.maoerle.cn/www_fuda/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Cron',
+    2 => 'scanOrderSell',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'curl/7.29.0',
+  'host' => '125.whyuejian.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cron->scanOrderSell[ /www/wwwroot/125.maoerle.cn/www_fuda/application/index/controller/Cron.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T23:56:48+08:00 ] 101.132.75.111 GET /cron/sell
+[ info ] 125.whyuejian.com/cron/sell [运行时间：0.032294s][吞吐率：30.97req/s] [内存消耗：2,952.48kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/125.maoerle.cn/www_fuda/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Cron',
+    2 => 'scanOrderSell',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'curl/7.29.0',
+  'host' => '125.whyuejian.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cron->scanOrderSell[ /www/wwwroot/125.maoerle.cn/www_fuda/application/index/controller/Cron.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T23:56:50+08:00 ] 101.132.75.111 GET /cron/sell
+[ info ] 125.whyuejian.com/cron/sell [运行时间：0.029038s][吞吐率：34.44req/s] [内存消耗：2,952.48kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/125.maoerle.cn/www_fuda/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Cron',
+    2 => 'scanOrderSell',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'curl/7.29.0',
+  'host' => '125.whyuejian.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cron->scanOrderSell[ /www/wwwroot/125.maoerle.cn/www_fuda/application/index/controller/Cron.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T23:56:52+08:00 ] 101.132.75.111 GET /cron/sell
+[ info ] 125.whyuejian.com/cron/sell [运行时间：0.030261s][吞吐率：33.05req/s] [内存消耗：2,952.48kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/125.maoerle.cn/www_fuda/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Cron',
+    2 => 'scanOrderSell',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'curl/7.29.0',
+  'host' => '125.whyuejian.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cron->scanOrderSell[ /www/wwwroot/125.maoerle.cn/www_fuda/application/index/controller/Cron.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T23:56:54+08:00 ] 101.132.75.111 GET /cron/sell
+[ info ] 125.whyuejian.com/cron/sell [运行时间：0.028499s][吞吐率：35.09req/s] [内存消耗：2,952.48kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/125.maoerle.cn/www_fuda/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Cron',
+    2 => 'scanOrderSell',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'curl/7.29.0',
+  'host' => '125.whyuejian.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cron->scanOrderSell[ /www/wwwroot/125.maoerle.cn/www_fuda/application/index/controller/Cron.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T23:56:56+08:00 ] 101.132.75.111 GET /cron/sell
+[ info ] 125.whyuejian.com/cron/sell [运行时间：0.032170s][吞吐率：31.09req/s] [内存消耗：2,952.48kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/125.maoerle.cn/www_fuda/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Cron',
+    2 => 'scanOrderSell',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'curl/7.29.0',
+  'host' => '125.whyuejian.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cron->scanOrderSell[ /www/wwwroot/125.maoerle.cn/www_fuda/application/index/controller/Cron.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T23:56:58+08:00 ] 101.132.75.111 GET /cron/sell
+[ info ] 125.whyuejian.com/cron/sell [运行时间：0.028087s][吞吐率：35.60req/s] [内存消耗：2,952.48kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/125.maoerle.cn/www_fuda/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Cron',
+    2 => 'scanOrderSell',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'curl/7.29.0',
+  'host' => '125.whyuejian.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cron->scanOrderSell[ /www/wwwroot/125.maoerle.cn/www_fuda/application/index/controller/Cron.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T23:57:00+08:00 ] 101.132.75.111 GET /cron/sell
+[ info ] 125.whyuejian.com/cron/sell [运行时间：0.031179s][吞吐率：32.07req/s] [内存消耗：2,952.48kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/125.maoerle.cn/www_fuda/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Cron',
+    2 => 'scanOrderSell',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'curl/7.29.0',
+  'host' => '125.whyuejian.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cron->scanOrderSell[ /www/wwwroot/125.maoerle.cn/www_fuda/application/index/controller/Cron.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T23:57:01+08:00 ] 101.132.75.111 GET /cron/defer
+[ info ] 125.whyuejian.com/cron/defer [运行时间：0.053136s][吞吐率：18.82req/s] [内存消耗：2,952.52kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/125.maoerle.cn/www_fuda/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Cron',
+    2 => 'scanOrderDefer',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'curl/7.29.0',
+  'host' => '125.whyuejian.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cron->scanOrderDefer[ /www/wwwroot/125.maoerle.cn/www_fuda/application/index/controller/Cron.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T23:57:02+08:00 ] 101.132.75.111 GET /cron/sell
+[ info ] 125.whyuejian.com/cron/sell [运行时间：0.084074s][吞吐率：11.89req/s] [内存消耗：2,952.48kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/125.maoerle.cn/www_fuda/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Cron',
+    2 => 'scanOrderSell',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'curl/7.29.0',
+  'host' => '125.whyuejian.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cron->scanOrderSell[ /www/wwwroot/125.maoerle.cn/www_fuda/application/index/controller/Cron.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T23:57:04+08:00 ] 101.132.75.111 GET /cron/sell
+[ info ] 125.whyuejian.com/cron/sell [运行时间：0.030094s][吞吐率：33.23req/s] [内存消耗：2,952.48kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/125.maoerle.cn/www_fuda/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Cron',
+    2 => 'scanOrderSell',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'curl/7.29.0',
+  'host' => '125.whyuejian.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cron->scanOrderSell[ /www/wwwroot/125.maoerle.cn/www_fuda/application/index/controller/Cron.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T23:57:06+08:00 ] 101.132.75.111 GET /cron/sell
+[ info ] 125.whyuejian.com/cron/sell [运行时间：0.030347s][吞吐率：32.95req/s] [内存消耗：2,952.48kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/125.maoerle.cn/www_fuda/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Cron',
+    2 => 'scanOrderSell',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'curl/7.29.0',
+  'host' => '125.whyuejian.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cron->scanOrderSell[ /www/wwwroot/125.maoerle.cn/www_fuda/application/index/controller/Cron.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T23:57:08+08:00 ] 101.132.75.111 GET /cron/sell
+[ info ] 125.whyuejian.com/cron/sell [运行时间：0.029459s][吞吐率：33.95req/s] [内存消耗：2,952.48kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/125.maoerle.cn/www_fuda/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Cron',
+    2 => 'scanOrderSell',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'curl/7.29.0',
+  'host' => '125.whyuejian.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cron->scanOrderSell[ /www/wwwroot/125.maoerle.cn/www_fuda/application/index/controller/Cron.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T23:57:10+08:00 ] 101.132.75.111 GET /cron/sell
+[ info ] 125.whyuejian.com/cron/sell [运行时间：0.029509s][吞吐率：33.89req/s] [内存消耗：2,952.48kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/125.maoerle.cn/www_fuda/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Cron',
+    2 => 'scanOrderSell',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'curl/7.29.0',
+  'host' => '125.whyuejian.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cron->scanOrderSell[ /www/wwwroot/125.maoerle.cn/www_fuda/application/index/controller/Cron.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T23:57:12+08:00 ] 101.132.75.111 GET /cron/sell
+[ info ] 125.whyuejian.com/cron/sell [运行时间：0.028377s][吞吐率：35.24req/s] [内存消耗：2,952.48kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/125.maoerle.cn/www_fuda/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Cron',
+    2 => 'scanOrderSell',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'curl/7.29.0',
+  'host' => '125.whyuejian.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cron->scanOrderSell[ /www/wwwroot/125.maoerle.cn/www_fuda/application/index/controller/Cron.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T23:57:14+08:00 ] 101.132.75.111 GET /cron/sell
+[ info ] 125.whyuejian.com/cron/sell [运行时间：0.028301s][吞吐率：35.33req/s] [内存消耗：2,952.48kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/125.maoerle.cn/www_fuda/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Cron',
+    2 => 'scanOrderSell',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'curl/7.29.0',
+  'host' => '125.whyuejian.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cron->scanOrderSell[ /www/wwwroot/125.maoerle.cn/www_fuda/application/index/controller/Cron.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T23:57:16+08:00 ] 101.132.75.111 GET /cron/sell
+[ info ] 125.whyuejian.com/cron/sell [运行时间：0.028365s][吞吐率：35.25req/s] [内存消耗：2,952.48kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/125.maoerle.cn/www_fuda/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Cron',
+    2 => 'scanOrderSell',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'curl/7.29.0',
+  'host' => '125.whyuejian.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cron->scanOrderSell[ /www/wwwroot/125.maoerle.cn/www_fuda/application/index/controller/Cron.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T23:57:18+08:00 ] 101.132.75.111 GET /cron/sell
+[ info ] 125.whyuejian.com/cron/sell [运行时间：0.035561s][吞吐率：28.12req/s] [内存消耗：2,952.48kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/125.maoerle.cn/www_fuda/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Cron',
+    2 => 'scanOrderSell',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'curl/7.29.0',
+  'host' => '125.whyuejian.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cron->scanOrderSell[ /www/wwwroot/125.maoerle.cn/www_fuda/application/index/controller/Cron.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T23:57:20+08:00 ] 101.132.75.111 GET /cron/sell
+[ info ] 125.whyuejian.com/cron/sell [运行时间：0.028275s][吞吐率：35.37req/s] [内存消耗：2,952.48kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/125.maoerle.cn/www_fuda/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Cron',
+    2 => 'scanOrderSell',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'curl/7.29.0',
+  'host' => '125.whyuejian.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cron->scanOrderSell[ /www/wwwroot/125.maoerle.cn/www_fuda/application/index/controller/Cron.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T23:57:22+08:00 ] 101.132.75.111 GET /cron/sell
+[ info ] 125.whyuejian.com/cron/sell [运行时间：0.028199s][吞吐率：35.46req/s] [内存消耗：2,952.48kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/125.maoerle.cn/www_fuda/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Cron',
+    2 => 'scanOrderSell',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'curl/7.29.0',
+  'host' => '125.whyuejian.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cron->scanOrderSell[ /www/wwwroot/125.maoerle.cn/www_fuda/application/index/controller/Cron.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T23:57:24+08:00 ] 101.132.75.111 GET /cron/sell
+[ info ] 125.whyuejian.com/cron/sell [运行时间：0.028698s][吞吐率：34.85req/s] [内存消耗：2,952.48kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/125.maoerle.cn/www_fuda/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Cron',
+    2 => 'scanOrderSell',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'curl/7.29.0',
+  'host' => '125.whyuejian.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cron->scanOrderSell[ /www/wwwroot/125.maoerle.cn/www_fuda/application/index/controller/Cron.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T23:57:26+08:00 ] 101.132.75.111 GET /cron/sell
+[ info ] 125.whyuejian.com/cron/sell [运行时间：0.028720s][吞吐率：34.82req/s] [内存消耗：2,952.48kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/125.maoerle.cn/www_fuda/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Cron',
+    2 => 'scanOrderSell',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'curl/7.29.0',
+  'host' => '125.whyuejian.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cron->scanOrderSell[ /www/wwwroot/125.maoerle.cn/www_fuda/application/index/controller/Cron.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T23:57:28+08:00 ] 101.132.75.111 GET /cron/sell
+[ info ] 125.whyuejian.com/cron/sell [运行时间：0.030813s][吞吐率：32.45req/s] [内存消耗：2,952.48kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/125.maoerle.cn/www_fuda/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Cron',
+    2 => 'scanOrderSell',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'curl/7.29.0',
+  'host' => '125.whyuejian.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cron->scanOrderSell[ /www/wwwroot/125.maoerle.cn/www_fuda/application/index/controller/Cron.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T23:57:30+08:00 ] 101.132.75.111 GET /cron/sell
+[ info ] 125.whyuejian.com/cron/sell [运行时间：0.032382s][吞吐率：30.88req/s] [内存消耗：2,952.48kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/125.maoerle.cn/www_fuda/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Cron',
+    2 => 'scanOrderSell',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'curl/7.29.0',
+  'host' => '125.whyuejian.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cron->scanOrderSell[ /www/wwwroot/125.maoerle.cn/www_fuda/application/index/controller/Cron.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T23:57:32+08:00 ] 101.132.75.111 GET /cron/sell
+[ info ] 125.whyuejian.com/cron/sell [运行时间：0.029759s][吞吐率：33.60req/s] [内存消耗：2,952.48kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/125.maoerle.cn/www_fuda/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Cron',
+    2 => 'scanOrderSell',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'curl/7.29.0',
+  'host' => '125.whyuejian.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cron->scanOrderSell[ /www/wwwroot/125.maoerle.cn/www_fuda/application/index/controller/Cron.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T23:57:34+08:00 ] 101.132.75.111 GET /cron/sell
+[ info ] 125.whyuejian.com/cron/sell [运行时间：0.033515s][吞吐率：29.84req/s] [内存消耗：2,952.48kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/125.maoerle.cn/www_fuda/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Cron',
+    2 => 'scanOrderSell',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'curl/7.29.0',
+  'host' => '125.whyuejian.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cron->scanOrderSell[ /www/wwwroot/125.maoerle.cn/www_fuda/application/index/controller/Cron.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T23:57:36+08:00 ] 101.132.75.111 GET /cron/sell
+[ info ] 125.whyuejian.com/cron/sell [运行时间：0.029583s][吞吐率：33.80req/s] [内存消耗：2,952.48kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/125.maoerle.cn/www_fuda/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Cron',
+    2 => 'scanOrderSell',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'curl/7.29.0',
+  'host' => '125.whyuejian.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cron->scanOrderSell[ /www/wwwroot/125.maoerle.cn/www_fuda/application/index/controller/Cron.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T23:57:38+08:00 ] 101.132.75.111 GET /cron/sell
+[ info ] 125.whyuejian.com/cron/sell [运行时间：0.028522s][吞吐率：35.06req/s] [内存消耗：2,952.48kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/125.maoerle.cn/www_fuda/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Cron',
+    2 => 'scanOrderSell',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'curl/7.29.0',
+  'host' => '125.whyuejian.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cron->scanOrderSell[ /www/wwwroot/125.maoerle.cn/www_fuda/application/index/controller/Cron.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T23:57:40+08:00 ] 101.132.75.111 GET /cron/sell
+[ info ] 125.whyuejian.com/cron/sell [运行时间：0.030112s][吞吐率：33.21req/s] [内存消耗：2,952.48kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/125.maoerle.cn/www_fuda/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Cron',
+    2 => 'scanOrderSell',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'curl/7.29.0',
+  'host' => '125.whyuejian.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cron->scanOrderSell[ /www/wwwroot/125.maoerle.cn/www_fuda/application/index/controller/Cron.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T23:57:42+08:00 ] 101.132.75.111 GET /cron/sell
+[ info ] 125.whyuejian.com/cron/sell [运行时间：0.045878s][吞吐率：21.80req/s] [内存消耗：2,952.48kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/125.maoerle.cn/www_fuda/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Cron',
+    2 => 'scanOrderSell',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'curl/7.29.0',
+  'host' => '125.whyuejian.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cron->scanOrderSell[ /www/wwwroot/125.maoerle.cn/www_fuda/application/index/controller/Cron.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T23:57:45+08:00 ] 101.132.75.111 GET /cron/sell
+[ info ] 125.whyuejian.com/cron/sell [运行时间：0.038259s][吞吐率：26.14req/s] [内存消耗：2,952.48kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/125.maoerle.cn/www_fuda/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Cron',
+    2 => 'scanOrderSell',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'curl/7.29.0',
+  'host' => '125.whyuejian.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cron->scanOrderSell[ /www/wwwroot/125.maoerle.cn/www_fuda/application/index/controller/Cron.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T23:57:47+08:00 ] 101.132.75.111 GET /cron/sell
+[ info ] 125.whyuejian.com/cron/sell [运行时间：0.028553s][吞吐率：35.02req/s] [内存消耗：2,952.48kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/125.maoerle.cn/www_fuda/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Cron',
+    2 => 'scanOrderSell',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'curl/7.29.0',
+  'host' => '125.whyuejian.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cron->scanOrderSell[ /www/wwwroot/125.maoerle.cn/www_fuda/application/index/controller/Cron.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T23:57:49+08:00 ] 101.132.75.111 GET /cron/sell
+[ info ] 125.whyuejian.com/cron/sell [运行时间：0.030931s][吞吐率：32.33req/s] [内存消耗：2,952.48kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/125.maoerle.cn/www_fuda/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Cron',
+    2 => 'scanOrderSell',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'curl/7.29.0',
+  'host' => '125.whyuejian.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cron->scanOrderSell[ /www/wwwroot/125.maoerle.cn/www_fuda/application/index/controller/Cron.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T23:57:51+08:00 ] 101.132.75.111 GET /cron/sell
+[ info ] 125.whyuejian.com/cron/sell [运行时间：0.031584s][吞吐率：31.66req/s] [内存消耗：2,952.48kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/125.maoerle.cn/www_fuda/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Cron',
+    2 => 'scanOrderSell',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'curl/7.29.0',
+  'host' => '125.whyuejian.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cron->scanOrderSell[ /www/wwwroot/125.maoerle.cn/www_fuda/application/index/controller/Cron.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T23:57:53+08:00 ] 101.132.75.111 GET /cron/sell
+[ info ] 125.whyuejian.com/cron/sell [运行时间：0.028590s][吞吐率：34.98req/s] [内存消耗：2,952.48kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/125.maoerle.cn/www_fuda/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Cron',
+    2 => 'scanOrderSell',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'curl/7.29.0',
+  'host' => '125.whyuejian.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cron->scanOrderSell[ /www/wwwroot/125.maoerle.cn/www_fuda/application/index/controller/Cron.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T23:57:55+08:00 ] 101.132.75.111 GET /cron/sell
+[ info ] 125.whyuejian.com/cron/sell [运行时间：0.030370s][吞吐率：32.93req/s] [内存消耗：2,952.48kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/125.maoerle.cn/www_fuda/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Cron',
+    2 => 'scanOrderSell',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'curl/7.29.0',
+  'host' => '125.whyuejian.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cron->scanOrderSell[ /www/wwwroot/125.maoerle.cn/www_fuda/application/index/controller/Cron.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T23:57:57+08:00 ] 101.132.75.111 GET /cron/sell
+[ info ] 125.whyuejian.com/cron/sell [运行时间：0.029958s][吞吐率：33.38req/s] [内存消耗：2,952.48kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/125.maoerle.cn/www_fuda/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Cron',
+    2 => 'scanOrderSell',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'curl/7.29.0',
+  'host' => '125.whyuejian.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cron->scanOrderSell[ /www/wwwroot/125.maoerle.cn/www_fuda/application/index/controller/Cron.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T23:57:59+08:00 ] 101.132.75.111 GET /cron/sell
+[ info ] 125.whyuejian.com/cron/sell [运行时间：0.029826s][吞吐率：33.53req/s] [内存消耗：2,952.48kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/125.maoerle.cn/www_fuda/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Cron',
+    2 => 'scanOrderSell',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'curl/7.29.0',
+  'host' => '125.whyuejian.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cron->scanOrderSell[ /www/wwwroot/125.maoerle.cn/www_fuda/application/index/controller/Cron.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T23:58:01+08:00 ] 101.132.75.111 GET /cron/sell
+[ info ] 125.whyuejian.com/cron/sell [运行时间：0.030791s][吞吐率：32.48req/s] [内存消耗：2,952.48kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/125.maoerle.cn/www_fuda/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Cron',
+    2 => 'scanOrderSell',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'curl/7.29.0',
+  'host' => '125.whyuejian.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cron->scanOrderSell[ /www/wwwroot/125.maoerle.cn/www_fuda/application/index/controller/Cron.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T23:58:02+08:00 ] 101.132.75.111 GET /cron/sell
+[ info ] 125.whyuejian.com/cron/sell [运行时间：0.115028s][吞吐率：8.69req/s] [内存消耗：2,952.48kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/125.maoerle.cn/www_fuda/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Cron',
+    2 => 'scanOrderSell',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'curl/7.29.0',
+  'host' => '125.whyuejian.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cron->scanOrderSell[ /www/wwwroot/125.maoerle.cn/www_fuda/application/index/controller/Cron.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T23:58:02+08:00 ] 101.132.75.111 GET /cron/proxy-rebate
+[ info ] 125.whyuejian.com/cron/proxy-rebate [运行时间：0.208016s][吞吐率：4.81req/s] [内存消耗：4,888.14kb] [文件加载：71]
+[ info ] [ LANG ] /www/wwwroot/125.maoerle.cn/www_fuda/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Cron',
+    2 => 'handleProxyRebate',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'curl/7.29.0',
+  'host' => '125.whyuejian.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cron->handleProxyRebate[ /www/wwwroot/125.maoerle.cn/www_fuda/application/index/controller/Cron.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.028793s ] mysql:host=127.0.0.1;port=3306;dbname=stock;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `stock_config` [ RunTime:0.007309s ]
+[ sql ] [ SQL ] SELECT `val` FROM `stock_config` WHERE  `alias` = 'holiday' LIMIT 1 [ RunTime:0.002082s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `stock_order` [ RunTime:0.019385s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_order` WHERE  `state` = 2  AND `proxy_rebate` = 0  AND `update_at` BETWEEN 1573056000 AND 1573142399 [ RunTime:0.001336s ]
+---------------------------------------------------------------
+[ 2019-11-07T23:58:04+08:00 ] 101.132.75.111 GET /cron/sell
+[ info ] 125.whyuejian.com/cron/sell [运行时间：0.028636s][吞吐率：34.92req/s] [内存消耗：2,952.48kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/125.maoerle.cn/www_fuda/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Cron',
+    2 => 'scanOrderSell',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'curl/7.29.0',
+  'host' => '125.whyuejian.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cron->scanOrderSell[ /www/wwwroot/125.maoerle.cn/www_fuda/application/index/controller/Cron.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T23:58:06+08:00 ] 101.132.75.111 GET /cron/sell
+[ info ] 125.whyuejian.com/cron/sell [运行时间：0.029736s][吞吐率：33.63req/s] [内存消耗：2,952.48kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/125.maoerle.cn/www_fuda/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Cron',
+    2 => 'scanOrderSell',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'curl/7.29.0',
+  'host' => '125.whyuejian.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cron->scanOrderSell[ /www/wwwroot/125.maoerle.cn/www_fuda/application/index/controller/Cron.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T23:58:08+08:00 ] 101.132.75.111 GET /cron/sell
+[ info ] 125.whyuejian.com/cron/sell [运行时间：0.031060s][吞吐率：32.20req/s] [内存消耗：2,952.48kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/125.maoerle.cn/www_fuda/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Cron',
+    2 => 'scanOrderSell',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'curl/7.29.0',
+  'host' => '125.whyuejian.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cron->scanOrderSell[ /www/wwwroot/125.maoerle.cn/www_fuda/application/index/controller/Cron.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T23:58:10+08:00 ] 101.132.75.111 GET /cron/sell
+[ info ] 125.whyuejian.com/cron/sell [运行时间：0.032147s][吞吐率：31.11req/s] [内存消耗：2,952.48kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/125.maoerle.cn/www_fuda/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Cron',
+    2 => 'scanOrderSell',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'curl/7.29.0',
+  'host' => '125.whyuejian.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cron->scanOrderSell[ /www/wwwroot/125.maoerle.cn/www_fuda/application/index/controller/Cron.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T23:58:12+08:00 ] 101.132.75.111 GET /cron/sell
+[ info ] 125.whyuejian.com/cron/sell [运行时间：0.028122s][吞吐率：35.56req/s] [内存消耗：2,952.48kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/125.maoerle.cn/www_fuda/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Cron',
+    2 => 'scanOrderSell',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'curl/7.29.0',
+  'host' => '125.whyuejian.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cron->scanOrderSell[ /www/wwwroot/125.maoerle.cn/www_fuda/application/index/controller/Cron.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T23:58:14+08:00 ] 101.132.75.111 GET /cron/sell
+[ info ] 125.whyuejian.com/cron/sell [运行时间：0.028160s][吞吐率：35.51req/s] [内存消耗：2,952.48kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/125.maoerle.cn/www_fuda/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Cron',
+    2 => 'scanOrderSell',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'curl/7.29.0',
+  'host' => '125.whyuejian.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cron->scanOrderSell[ /www/wwwroot/125.maoerle.cn/www_fuda/application/index/controller/Cron.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T23:58:16+08:00 ] 101.132.75.111 GET /cron/sell
+[ info ] 125.whyuejian.com/cron/sell [运行时间：0.066873s][吞吐率：14.95req/s] [内存消耗：2,952.48kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/125.maoerle.cn/www_fuda/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Cron',
+    2 => 'scanOrderSell',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'curl/7.29.0',
+  'host' => '125.whyuejian.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cron->scanOrderSell[ /www/wwwroot/125.maoerle.cn/www_fuda/application/index/controller/Cron.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T23:58:18+08:00 ] 101.132.75.111 GET /cron/sell
+[ info ] 125.whyuejian.com/cron/sell [运行时间：0.032418s][吞吐率：30.85req/s] [内存消耗：2,952.48kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/125.maoerle.cn/www_fuda/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Cron',
+    2 => 'scanOrderSell',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'curl/7.29.0',
+  'host' => '125.whyuejian.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cron->scanOrderSell[ /www/wwwroot/125.maoerle.cn/www_fuda/application/index/controller/Cron.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T23:58:20+08:00 ] 101.132.75.111 GET /cron/sell
+[ info ] 125.whyuejian.com/cron/sell [运行时间：0.029664s][吞吐率：33.71req/s] [内存消耗：2,952.48kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/125.maoerle.cn/www_fuda/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Cron',
+    2 => 'scanOrderSell',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'curl/7.29.0',
+  'host' => '125.whyuejian.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cron->scanOrderSell[ /www/wwwroot/125.maoerle.cn/www_fuda/application/index/controller/Cron.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T23:58:22+08:00 ] 101.132.75.111 GET /cron/sell
+[ info ] 125.whyuejian.com/cron/sell [运行时间：0.029685s][吞吐率：33.69req/s] [内存消耗：2,952.48kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/125.maoerle.cn/www_fuda/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Cron',
+    2 => 'scanOrderSell',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'curl/7.29.0',
+  'host' => '125.whyuejian.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cron->scanOrderSell[ /www/wwwroot/125.maoerle.cn/www_fuda/application/index/controller/Cron.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T23:58:24+08:00 ] 101.132.75.111 GET /cron/sell
+[ info ] 125.whyuejian.com/cron/sell [运行时间：0.028118s][吞吐率：35.56req/s] [内存消耗：2,952.48kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/125.maoerle.cn/www_fuda/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Cron',
+    2 => 'scanOrderSell',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'curl/7.29.0',
+  'host' => '125.whyuejian.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cron->scanOrderSell[ /www/wwwroot/125.maoerle.cn/www_fuda/application/index/controller/Cron.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T23:58:26+08:00 ] 101.132.75.111 GET /cron/sell
+[ info ] 125.whyuejian.com/cron/sell [运行时间：0.029990s][吞吐率：33.34req/s] [内存消耗：2,952.48kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/125.maoerle.cn/www_fuda/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Cron',
+    2 => 'scanOrderSell',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'curl/7.29.0',
+  'host' => '125.whyuejian.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cron->scanOrderSell[ /www/wwwroot/125.maoerle.cn/www_fuda/application/index/controller/Cron.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T23:58:28+08:00 ] 101.132.75.111 GET /cron/sell
+[ info ] 125.whyuejian.com/cron/sell [运行时间：0.028906s][吞吐率：34.59req/s] [内存消耗：2,952.48kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/125.maoerle.cn/www_fuda/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Cron',
+    2 => 'scanOrderSell',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'curl/7.29.0',
+  'host' => '125.whyuejian.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cron->scanOrderSell[ /www/wwwroot/125.maoerle.cn/www_fuda/application/index/controller/Cron.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T23:58:30+08:00 ] 101.132.75.111 GET /cron/sell
+[ info ] 125.whyuejian.com/cron/sell [运行时间：0.032424s][吞吐率：30.84req/s] [内存消耗：2,952.48kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/125.maoerle.cn/www_fuda/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Cron',
+    2 => 'scanOrderSell',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'curl/7.29.0',
+  'host' => '125.whyuejian.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cron->scanOrderSell[ /www/wwwroot/125.maoerle.cn/www_fuda/application/index/controller/Cron.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T23:58:32+08:00 ] 101.132.75.111 GET /cron/sell
+[ info ] 125.whyuejian.com/cron/sell [运行时间：0.028957s][吞吐率：34.53req/s] [内存消耗：2,952.48kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/125.maoerle.cn/www_fuda/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Cron',
+    2 => 'scanOrderSell',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'curl/7.29.0',
+  'host' => '125.whyuejian.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cron->scanOrderSell[ /www/wwwroot/125.maoerle.cn/www_fuda/application/index/controller/Cron.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T23:58:34+08:00 ] 101.132.75.111 GET /cron/sell
+[ info ] 125.whyuejian.com/cron/sell [运行时间：0.030194s][吞吐率：33.12req/s] [内存消耗：2,952.48kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/125.maoerle.cn/www_fuda/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Cron',
+    2 => 'scanOrderSell',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'curl/7.29.0',
+  'host' => '125.whyuejian.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cron->scanOrderSell[ /www/wwwroot/125.maoerle.cn/www_fuda/application/index/controller/Cron.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T23:58:36+08:00 ] 101.132.75.111 GET /cron/sell
+[ info ] 125.whyuejian.com/cron/sell [运行时间：0.031117s][吞吐率：32.14req/s] [内存消耗：2,952.48kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/125.maoerle.cn/www_fuda/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Cron',
+    2 => 'scanOrderSell',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'curl/7.29.0',
+  'host' => '125.whyuejian.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cron->scanOrderSell[ /www/wwwroot/125.maoerle.cn/www_fuda/application/index/controller/Cron.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T23:58:38+08:00 ] 101.132.75.111 GET /cron/sell
+[ info ] 125.whyuejian.com/cron/sell [运行时间：0.055348s][吞吐率：18.07req/s] [内存消耗：2,952.48kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/125.maoerle.cn/www_fuda/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Cron',
+    2 => 'scanOrderSell',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'curl/7.29.0',
+  'host' => '125.whyuejian.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cron->scanOrderSell[ /www/wwwroot/125.maoerle.cn/www_fuda/application/index/controller/Cron.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T23:58:41+08:00 ] 101.132.75.111 GET /cron/sell
+[ info ] 125.whyuejian.com/cron/sell [运行时间：0.032384s][吞吐率：30.88req/s] [内存消耗：2,952.48kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/125.maoerle.cn/www_fuda/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Cron',
+    2 => 'scanOrderSell',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'curl/7.29.0',
+  'host' => '125.whyuejian.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cron->scanOrderSell[ /www/wwwroot/125.maoerle.cn/www_fuda/application/index/controller/Cron.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T23:58:43+08:00 ] 101.132.75.111 GET /cron/sell
+[ info ] 125.whyuejian.com/cron/sell [运行时间：0.029049s][吞吐率：34.42req/s] [内存消耗：2,952.48kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/125.maoerle.cn/www_fuda/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Cron',
+    2 => 'scanOrderSell',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'curl/7.29.0',
+  'host' => '125.whyuejian.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cron->scanOrderSell[ /www/wwwroot/125.maoerle.cn/www_fuda/application/index/controller/Cron.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T23:58:45+08:00 ] 101.132.75.111 GET /cron/sell
+[ info ] 125.whyuejian.com/cron/sell [运行时间：0.028817s][吞吐率：34.70req/s] [内存消耗：2,952.48kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/125.maoerle.cn/www_fuda/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Cron',
+    2 => 'scanOrderSell',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'curl/7.29.0',
+  'host' => '125.whyuejian.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cron->scanOrderSell[ /www/wwwroot/125.maoerle.cn/www_fuda/application/index/controller/Cron.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T23:58:47+08:00 ] 101.132.75.111 GET /cron/sell
+[ info ] 125.whyuejian.com/cron/sell [运行时间：0.027818s][吞吐率：35.95req/s] [内存消耗：2,952.48kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/125.maoerle.cn/www_fuda/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Cron',
+    2 => 'scanOrderSell',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'curl/7.29.0',
+  'host' => '125.whyuejian.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cron->scanOrderSell[ /www/wwwroot/125.maoerle.cn/www_fuda/application/index/controller/Cron.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T23:58:49+08:00 ] 101.132.75.111 GET /cron/sell
+[ info ] 125.whyuejian.com/cron/sell [运行时间：0.031105s][吞吐率：32.15req/s] [内存消耗：2,952.48kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/125.maoerle.cn/www_fuda/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Cron',
+    2 => 'scanOrderSell',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'curl/7.29.0',
+  'host' => '125.whyuejian.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cron->scanOrderSell[ /www/wwwroot/125.maoerle.cn/www_fuda/application/index/controller/Cron.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T23:58:51+08:00 ] 101.132.75.111 GET /cron/sell
+[ info ] 125.whyuejian.com/cron/sell [运行时间：0.029389s][吞吐率：34.03req/s] [内存消耗：2,952.48kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/125.maoerle.cn/www_fuda/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Cron',
+    2 => 'scanOrderSell',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'curl/7.29.0',
+  'host' => '125.whyuejian.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cron->scanOrderSell[ /www/wwwroot/125.maoerle.cn/www_fuda/application/index/controller/Cron.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T23:58:53+08:00 ] 101.132.75.111 GET /cron/sell
+[ info ] 125.whyuejian.com/cron/sell [运行时间：0.029985s][吞吐率：33.35req/s] [内存消耗：2,952.48kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/125.maoerle.cn/www_fuda/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Cron',
+    2 => 'scanOrderSell',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'curl/7.29.0',
+  'host' => '125.whyuejian.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cron->scanOrderSell[ /www/wwwroot/125.maoerle.cn/www_fuda/application/index/controller/Cron.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T23:58:55+08:00 ] 101.132.75.111 GET /cron/sell
+[ info ] 125.whyuejian.com/cron/sell [运行时间：0.028911s][吞吐率：34.59req/s] [内存消耗：2,952.48kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/125.maoerle.cn/www_fuda/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Cron',
+    2 => 'scanOrderSell',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'curl/7.29.0',
+  'host' => '125.whyuejian.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cron->scanOrderSell[ /www/wwwroot/125.maoerle.cn/www_fuda/application/index/controller/Cron.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T23:58:57+08:00 ] 101.132.75.111 GET /cron/sell
+[ info ] 125.whyuejian.com/cron/sell [运行时间：0.029663s][吞吐率：33.71req/s] [内存消耗：2,952.48kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/125.maoerle.cn/www_fuda/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Cron',
+    2 => 'scanOrderSell',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'curl/7.29.0',
+  'host' => '125.whyuejian.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cron->scanOrderSell[ /www/wwwroot/125.maoerle.cn/www_fuda/application/index/controller/Cron.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T23:58:59+08:00 ] 101.132.75.111 GET /cron/sell
+[ info ] 125.whyuejian.com/cron/sell [运行时间：0.034088s][吞吐率：29.34req/s] [内存消耗：2,952.48kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/125.maoerle.cn/www_fuda/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Cron',
+    2 => 'scanOrderSell',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'curl/7.29.0',
+  'host' => '125.whyuejian.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cron->scanOrderSell[ /www/wwwroot/125.maoerle.cn/www_fuda/application/index/controller/Cron.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T23:59:01+08:00 ] 101.132.75.111 GET /cron/sell
+[ info ] 125.whyuejian.com/cron/sell [运行时间：0.158194s][吞吐率：6.32req/s] [内存消耗：2,952.48kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/125.maoerle.cn/www_fuda/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Cron',
+    2 => 'scanOrderSell',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'curl/7.29.0',
+  'host' => '125.whyuejian.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cron->scanOrderSell[ /www/wwwroot/125.maoerle.cn/www_fuda/application/index/controller/Cron.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T23:59:01+08:00 ] 101.132.75.111 GET /cron/sell
+[ info ] 125.whyuejian.com/cron/sell [运行时间：0.065899s][吞吐率：15.17req/s] [内存消耗：2,952.48kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/125.maoerle.cn/www_fuda/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Cron',
+    2 => 'scanOrderSell',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'curl/7.29.0',
+  'host' => '125.whyuejian.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cron->scanOrderSell[ /www/wwwroot/125.maoerle.cn/www_fuda/application/index/controller/Cron.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T23:59:03+08:00 ] 101.132.75.111 GET /cron/sell
+[ info ] 125.whyuejian.com/cron/sell [运行时间：0.028884s][吞吐率：34.62req/s] [内存消耗：2,952.48kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/125.maoerle.cn/www_fuda/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Cron',
+    2 => 'scanOrderSell',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'curl/7.29.0',
+  'host' => '125.whyuejian.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cron->scanOrderSell[ /www/wwwroot/125.maoerle.cn/www_fuda/application/index/controller/Cron.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T23:59:05+08:00 ] 101.132.75.111 GET /cron/sell
+[ info ] 125.whyuejian.com/cron/sell [运行时间：0.030705s][吞吐率：32.57req/s] [内存消耗：2,952.48kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/125.maoerle.cn/www_fuda/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Cron',
+    2 => 'scanOrderSell',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'curl/7.29.0',
+  'host' => '125.whyuejian.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cron->scanOrderSell[ /www/wwwroot/125.maoerle.cn/www_fuda/application/index/controller/Cron.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T23:59:07+08:00 ] 101.132.75.111 GET /cron/sell
+[ info ] 125.whyuejian.com/cron/sell [运行时间：0.028024s][吞吐率：35.68req/s] [内存消耗：2,952.48kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/125.maoerle.cn/www_fuda/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Cron',
+    2 => 'scanOrderSell',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'curl/7.29.0',
+  'host' => '125.whyuejian.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cron->scanOrderSell[ /www/wwwroot/125.maoerle.cn/www_fuda/application/index/controller/Cron.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T23:59:09+08:00 ] 101.132.75.111 GET /cron/sell
+[ info ] 125.whyuejian.com/cron/sell [运行时间：0.029237s][吞吐率：34.20req/s] [内存消耗：2,952.48kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/125.maoerle.cn/www_fuda/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Cron',
+    2 => 'scanOrderSell',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'curl/7.29.0',
+  'host' => '125.whyuejian.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cron->scanOrderSell[ /www/wwwroot/125.maoerle.cn/www_fuda/application/index/controller/Cron.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T23:59:11+08:00 ] 101.132.75.111 GET /cron/sell
+[ info ] 125.whyuejian.com/cron/sell [运行时间：0.028044s][吞吐率：35.66req/s] [内存消耗：2,952.48kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/125.maoerle.cn/www_fuda/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Cron',
+    2 => 'scanOrderSell',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'curl/7.29.0',
+  'host' => '125.whyuejian.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cron->scanOrderSell[ /www/wwwroot/125.maoerle.cn/www_fuda/application/index/controller/Cron.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T23:59:13+08:00 ] 101.132.75.111 GET /cron/sell
+[ info ] 125.whyuejian.com/cron/sell [运行时间：0.030350s][吞吐率：32.95req/s] [内存消耗：2,952.48kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/125.maoerle.cn/www_fuda/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Cron',
+    2 => 'scanOrderSell',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'curl/7.29.0',
+  'host' => '125.whyuejian.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cron->scanOrderSell[ /www/wwwroot/125.maoerle.cn/www_fuda/application/index/controller/Cron.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T23:59:15+08:00 ] 101.132.75.111 GET /cron/sell
+[ info ] 125.whyuejian.com/cron/sell [运行时间：0.030262s][吞吐率：33.04req/s] [内存消耗：2,952.48kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/125.maoerle.cn/www_fuda/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Cron',
+    2 => 'scanOrderSell',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'curl/7.29.0',
+  'host' => '125.whyuejian.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cron->scanOrderSell[ /www/wwwroot/125.maoerle.cn/www_fuda/application/index/controller/Cron.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T23:59:17+08:00 ] 101.132.75.111 GET /cron/sell
+[ info ] 125.whyuejian.com/cron/sell [运行时间：0.028195s][吞吐率：35.47req/s] [内存消耗：2,952.48kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/125.maoerle.cn/www_fuda/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Cron',
+    2 => 'scanOrderSell',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'curl/7.29.0',
+  'host' => '125.whyuejian.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cron->scanOrderSell[ /www/wwwroot/125.maoerle.cn/www_fuda/application/index/controller/Cron.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T23:59:19+08:00 ] 101.132.75.111 GET /cron/sell
+[ info ] 125.whyuejian.com/cron/sell [运行时间：0.028348s][吞吐率：35.28req/s] [内存消耗：2,952.48kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/125.maoerle.cn/www_fuda/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Cron',
+    2 => 'scanOrderSell',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'curl/7.29.0',
+  'host' => '125.whyuejian.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cron->scanOrderSell[ /www/wwwroot/125.maoerle.cn/www_fuda/application/index/controller/Cron.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T23:59:22+08:00 ] 101.132.75.111 GET /cron/sell
+[ info ] 125.whyuejian.com/cron/sell [运行时间：0.029612s][吞吐率：33.77req/s] [内存消耗：2,952.48kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/125.maoerle.cn/www_fuda/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Cron',
+    2 => 'scanOrderSell',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'curl/7.29.0',
+  'host' => '125.whyuejian.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cron->scanOrderSell[ /www/wwwroot/125.maoerle.cn/www_fuda/application/index/controller/Cron.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T23:59:24+08:00 ] 101.132.75.111 GET /cron/sell
+[ info ] 125.whyuejian.com/cron/sell [运行时间：0.031632s][吞吐率：31.61req/s] [内存消耗：2,952.48kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/125.maoerle.cn/www_fuda/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Cron',
+    2 => 'scanOrderSell',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'curl/7.29.0',
+  'host' => '125.whyuejian.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cron->scanOrderSell[ /www/wwwroot/125.maoerle.cn/www_fuda/application/index/controller/Cron.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T23:59:26+08:00 ] 101.132.75.111 GET /cron/sell
+[ info ] 125.whyuejian.com/cron/sell [运行时间：0.028584s][吞吐率：34.98req/s] [内存消耗：2,952.48kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/125.maoerle.cn/www_fuda/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Cron',
+    2 => 'scanOrderSell',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'curl/7.29.0',
+  'host' => '125.whyuejian.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cron->scanOrderSell[ /www/wwwroot/125.maoerle.cn/www_fuda/application/index/controller/Cron.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T23:59:28+08:00 ] 101.132.75.111 GET /cron/sell
+[ info ] 125.whyuejian.com/cron/sell [运行时间：0.028615s][吞吐率：34.95req/s] [内存消耗：2,952.48kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/125.maoerle.cn/www_fuda/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Cron',
+    2 => 'scanOrderSell',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'curl/7.29.0',
+  'host' => '125.whyuejian.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cron->scanOrderSell[ /www/wwwroot/125.maoerle.cn/www_fuda/application/index/controller/Cron.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T23:59:30+08:00 ] 101.132.75.111 GET /cron/sell
+[ info ] 125.whyuejian.com/cron/sell [运行时间：0.029565s][吞吐率：33.82req/s] [内存消耗：2,952.48kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/125.maoerle.cn/www_fuda/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Cron',
+    2 => 'scanOrderSell',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'curl/7.29.0',
+  'host' => '125.whyuejian.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cron->scanOrderSell[ /www/wwwroot/125.maoerle.cn/www_fuda/application/index/controller/Cron.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T23:59:32+08:00 ] 101.132.75.111 GET /cron/sell
+[ info ] 125.whyuejian.com/cron/sell [运行时间：0.029645s][吞吐率：33.73req/s] [内存消耗：2,952.48kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/125.maoerle.cn/www_fuda/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Cron',
+    2 => 'scanOrderSell',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'curl/7.29.0',
+  'host' => '125.whyuejian.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cron->scanOrderSell[ /www/wwwroot/125.maoerle.cn/www_fuda/application/index/controller/Cron.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T23:59:34+08:00 ] 101.132.75.111 GET /cron/sell
+[ info ] 125.whyuejian.com/cron/sell [运行时间：0.028807s][吞吐率：34.71req/s] [内存消耗：2,952.48kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/125.maoerle.cn/www_fuda/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Cron',
+    2 => 'scanOrderSell',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'curl/7.29.0',
+  'host' => '125.whyuejian.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cron->scanOrderSell[ /www/wwwroot/125.maoerle.cn/www_fuda/application/index/controller/Cron.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T23:59:36+08:00 ] 101.132.75.111 GET /cron/sell
+[ info ] 125.whyuejian.com/cron/sell [运行时间：0.028906s][吞吐率：34.59req/s] [内存消耗：2,952.48kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/125.maoerle.cn/www_fuda/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Cron',
+    2 => 'scanOrderSell',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'curl/7.29.0',
+  'host' => '125.whyuejian.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cron->scanOrderSell[ /www/wwwroot/125.maoerle.cn/www_fuda/application/index/controller/Cron.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T23:59:38+08:00 ] 101.132.75.111 GET /cron/sell
+[ info ] 125.whyuejian.com/cron/sell [运行时间：0.029125s][吞吐率：34.33req/s] [内存消耗：2,952.48kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/125.maoerle.cn/www_fuda/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Cron',
+    2 => 'scanOrderSell',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'curl/7.29.0',
+  'host' => '125.whyuejian.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cron->scanOrderSell[ /www/wwwroot/125.maoerle.cn/www_fuda/application/index/controller/Cron.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T23:59:40+08:00 ] 101.132.75.111 GET /cron/sell
+[ info ] 125.whyuejian.com/cron/sell [运行时间：0.028576s][吞吐率：34.99req/s] [内存消耗：2,952.48kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/125.maoerle.cn/www_fuda/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Cron',
+    2 => 'scanOrderSell',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'curl/7.29.0',
+  'host' => '125.whyuejian.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cron->scanOrderSell[ /www/wwwroot/125.maoerle.cn/www_fuda/application/index/controller/Cron.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T23:59:42+08:00 ] 101.132.75.111 GET /cron/sell
+[ info ] 125.whyuejian.com/cron/sell [运行时间：0.029578s][吞吐率：33.81req/s] [内存消耗：2,952.48kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/125.maoerle.cn/www_fuda/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Cron',
+    2 => 'scanOrderSell',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'curl/7.29.0',
+  'host' => '125.whyuejian.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cron->scanOrderSell[ /www/wwwroot/125.maoerle.cn/www_fuda/application/index/controller/Cron.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T23:59:44+08:00 ] 101.132.75.111 GET /cron/sell
+[ info ] 125.whyuejian.com/cron/sell [运行时间：0.029627s][吞吐率：33.75req/s] [内存消耗：2,952.48kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/125.maoerle.cn/www_fuda/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Cron',
+    2 => 'scanOrderSell',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'curl/7.29.0',
+  'host' => '125.whyuejian.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cron->scanOrderSell[ /www/wwwroot/125.maoerle.cn/www_fuda/application/index/controller/Cron.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T23:59:46+08:00 ] 101.132.75.111 GET /cron/sell
+[ info ] 125.whyuejian.com/cron/sell [运行时间：0.029514s][吞吐率：33.88req/s] [内存消耗：2,952.48kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/125.maoerle.cn/www_fuda/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Cron',
+    2 => 'scanOrderSell',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'curl/7.29.0',
+  'host' => '125.whyuejian.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cron->scanOrderSell[ /www/wwwroot/125.maoerle.cn/www_fuda/application/index/controller/Cron.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T23:59:48+08:00 ] 101.132.75.111 GET /cron/sell
+[ info ] 125.whyuejian.com/cron/sell [运行时间：0.029940s][吞吐率：33.40req/s] [内存消耗：2,952.48kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/125.maoerle.cn/www_fuda/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Cron',
+    2 => 'scanOrderSell',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'curl/7.29.0',
+  'host' => '125.whyuejian.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cron->scanOrderSell[ /www/wwwroot/125.maoerle.cn/www_fuda/application/index/controller/Cron.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T23:59:50+08:00 ] 101.132.75.111 GET /cron/sell
+[ info ] 125.whyuejian.com/cron/sell [运行时间：0.029855s][吞吐率：33.50req/s] [内存消耗：2,952.48kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/125.maoerle.cn/www_fuda/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Cron',
+    2 => 'scanOrderSell',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'curl/7.29.0',
+  'host' => '125.whyuejian.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cron->scanOrderSell[ /www/wwwroot/125.maoerle.cn/www_fuda/application/index/controller/Cron.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T23:59:52+08:00 ] 101.132.75.111 GET /cron/sell
+[ info ] 125.whyuejian.com/cron/sell [运行时间：0.044413s][吞吐率：22.52req/s] [内存消耗：2,952.48kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/125.maoerle.cn/www_fuda/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Cron',
+    2 => 'scanOrderSell',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'curl/7.29.0',
+  'host' => '125.whyuejian.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cron->scanOrderSell[ /www/wwwroot/125.maoerle.cn/www_fuda/application/index/controller/Cron.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T23:59:54+08:00 ] 101.132.75.111 GET /cron/sell
+[ info ] 125.whyuejian.com/cron/sell [运行时间：0.030003s][吞吐率：33.33req/s] [内存消耗：2,952.48kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/125.maoerle.cn/www_fuda/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Cron',
+    2 => 'scanOrderSell',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'curl/7.29.0',
+  'host' => '125.whyuejian.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cron->scanOrderSell[ /www/wwwroot/125.maoerle.cn/www_fuda/application/index/controller/Cron.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T23:59:56+08:00 ] 101.132.75.111 GET /cron/sell
+[ info ] 125.whyuejian.com/cron/sell [运行时间：0.028661s][吞吐率：34.89req/s] [内存消耗：2,952.48kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/125.maoerle.cn/www_fuda/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Cron',
+    2 => 'scanOrderSell',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'curl/7.29.0',
+  'host' => '125.whyuejian.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cron->scanOrderSell[ /www/wwwroot/125.maoerle.cn/www_fuda/application/index/controller/Cron.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T23:59:58+08:00 ] 101.132.75.111 GET /cron/sell
+[ info ] 125.whyuejian.com/cron/sell [运行时间：0.029479s][吞吐率：33.92req/s] [内存消耗：2,952.48kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/125.maoerle.cn/www_fuda/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Cron',
+    2 => 'scanOrderSell',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'curl/7.29.0',
+  'host' => '125.whyuejian.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cron->scanOrderSell[ /www/wwwroot/125.maoerle.cn/www_fuda/application/index/controller/Cron.php ]
+[ info ] [ LOG ] INIT File
