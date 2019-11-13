@@ -27,7 +27,7 @@ class SmsLogic
 		$postArr = array (
 			'accesskey'  => 'YzEnar5M55RtMZB3',
 			'secret' => '87rJ6G8SkhThrzPlct8S1uiXVyaY0Vfn',
-			'sign' => '19014',
+			'sign' => '139505',
 			// 'templateId' => $act=='register'?'25950':'25962',
 			'mobile' =>  $mobile,
 			'content' => $code
