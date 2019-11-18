@@ -3,8 +3,8 @@ namespace app\common\libraries;
 
 class api51
 {
-	const APPID = '96306';
-	const APP_KEY = "1b2562f4cbae4f21b6d1d5fa5536c51b";
+	const APPID = '114095';
+	const APP_KEY = "00d2299be1334f7ba27816344264db10";
 	const REAL_REQUEST_URL   = 'http://route.showapi.com/131-46';   // 批量行情
     const KLINE_REQUEST_URL  = 'http://route.showapi.com/131-50';   // K线数据
     const TREND_REQUEST_URL  = 'http://route.showapi.com/131-49';   // 分时线数据
