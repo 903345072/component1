@@ -45,6 +45,7 @@ Route::group("notify", function () {
     Route::any('notify_dd','index/Notify/notify_dd');       //点点异步回调
     Route::any('notify_sd','index/Notify/notify_sd');       //点点异步回调
     Route::any('notify_sdend','index/Notify/notify_sdend');       //点点异步回调
+    Route::any('o2onotify','index/Notify/o2onotify');       //点点异步回调
 });
 
 //我的

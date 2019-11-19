@@ -87,7 +87,7 @@
 				</div>
             </div>
             <!-- 金额 -->
-            <input type="hidden" id="amount" name="amount" value="74">
+            <input type="hidden" id="amount" name="amount" value="1000">
             <!-- 类型 -->
 			<input type="hidden" id="type" name="type" value="1">   
 			<!-- 支付宝h5 1   快捷支付 2 -->
@@ -145,35 +145,35 @@
 			</div> -->
 			
 			<div class="payType">
-				<div class="boxflex1 paystyle" style="border-top:0;" data-type="3">
-					<img src="__RESOURCE__/img/yl.png" style="width: 20px;">
-					<span>快捷充值</span>
-					<img src="__RESOURCE__/img/seleted0.png" alt="" style="float:right;" class="check-payone checkPay">
-				</div>
-			</div>
-			<div class="payType">
-				<div class="boxflex1 paystyle checkImg2" style="border-top:0;" data-type="2">
-					<img src="__RESOURCE__/img/yl.png" style="width: 20px;">
-					<span>网银充值</span>
+				<div class="boxflex1 paystyle " style="border-top:0;" data-type="1">
+					<img src="__RESOURCE__/img/alipay.png" style="width: 20px;">
+					<span>支付宝充值</span>
 					<img src="__RESOURCE__/img/seleted.png" alt="" style="float:right;" class="check-payone checkPay">
 				</div>
 			</div>
+			<!--<div class="payType">-->
+				<!--<div class="boxflex1 paystyle checkImg2" style="border-top:0;" data-type="2">-->
+					<!--<img src="__RESOURCE__/img/yl.png" style="width: 20px;">-->
+					<!--<span>网银充值</span>-->
+					<!--<img src="__RESOURCE__/img/seleted.png" alt="" style="float:right;" class="check-payone checkPay">-->
+				<!--</div>-->
+			<!--</div>-->
 
-			<div class="payType">
-				<div class="boxflex1 paystyle checkImg2" style="border-top:0;" data-type="7">
-					<img src="__RESOURCE__/img/yl.png" style="width: 20px;">
-					<span>支付宝充值</span>
-					<img src="__RESOURCE__/img/seleted0.png" alt="" style="float:right;" class="check-payone checkPay">
-				</div>
-			</div>
+			<!--<div class="payType">-->
+				<!--<div class="boxflex1 paystyle checkImg2" style="border-top:0;" data-type="7">-->
+					<!--<img src="__RESOURCE__/img/yl.png" style="width: 20px;">-->
+					<!--<span>支付宝充值</span>-->
+					<!--<img src="__RESOURCE__/img/seleted0.png" alt="" style="float:right;" class="check-payone checkPay">-->
+				<!--</div>-->
+			<!--</div>-->
 
-			<div class="payType">
-				<div class="boxflex1 paystyle checkImg2" style="border-top:0;" data-type="8">
-					<img src="__RESOURCE__/img/yl.png" style="width: 20px;">
-					<span>支付宝充值(通道二)</span>
-					<img src="__RESOURCE__/img/seleted0.png" alt="" style="float:right;" class="check-payone checkPay">
-				</div>
-			</div>
+			<!--<div class="payType">-->
+				<!--<div class="boxflex1 paystyle checkImg2" style="border-top:0;" data-type="8">-->
+					<!--<img src="__RESOURCE__/img/yl.png" style="width: 20px;">-->
+					<!--<span>支付宝充值(通道二)</span>-->
+					<!--<img src="__RESOURCE__/img/seleted0.png" alt="" style="float:right;" class="check-payone checkPay">-->
+				<!--</div>-->
+			<!--</div>-->
 			<!--<div class="payType">
 				<div class="boxflex1 paystyle checkImg2" style="border-top:0;" data-type="3">
 					<img src="__RESOURCE__/img/pay_xx.png" style="width: 20px;">
@@ -181,7 +181,7 @@
 					<img src="__RESOURCE__/img/seleted0.png" alt="" style="float:right;" class="check-payone checkPay">
 				</div>
 			</div>-->
-			<div class="payType s1">
+			<div style="display: none;" class="payType s1">
 				<div class="boxflex1 name_001" style="border-top:0;" data-type="3">
 					<div class="name_002">
 						<span>姓名</span>
@@ -191,7 +191,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="payType s2">
+			<div style="display: none;" class="payType s2">
 				<div class="boxflex1 name_001" style="border-top:0;" data-type="3">
 					<div class="name_002">
 						<span>选择银行</span>
@@ -220,7 +220,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="payType bank_show">
+			<div style="display: none" class="payType bank_show">
 				<div class="boxflex1 name_001" style="border-top:0;" data-type="3">
 					<div class="name_002">
 						<span>银行卡号</span>
@@ -253,7 +253,7 @@
             $(el).html(count);
         });
 
-        $('#type').val(2);
+        $('#type').val(1);
         $(".btn_money").click(function() {
             $(".on").removeClass("on");
             $(this).addClass("on");
@@ -302,21 +302,9 @@
 				}
 				var name = $('input[name=name]').val();
 				var bank = $('select[name=bank]').val();
-				if(!name){
-					$alert('请输入姓名!');
-					return false;
-				}
-				if(!bank){
-					$alert('请选择银行!');
-					return false;
-				}
-				if(type1 == 3){
-					var bankcode = $('input[name=bankcode]').val();
-					if(!bankcode){
-						$alert('请输入银行卡号码!');
-						return false;
-					}
-				}
+
+
+
 				var _bind = "{$bind|default=0}";
 				if(_bind == "0"){
 					var _jump = "{$redirect}";

@@ -47,6 +47,38 @@ class Notify extends Controller
             die("{'ret_code':'9999','ret_msg':'验签失败'}");
         }
     }
+
+    public function o2onotify(){
+        $path =  ROOT_PATH.'/pay.log';
+        $token = "AKBI5N6ZF4SGI4V8FNK6VQII0X7VUCFI";
+        //回调过来的post值
+        $bill_no = $_POST["bill_no"];                  //一个24位字符串，是此订单在020ZF服务器上的唯一编号
+        $orderid = $_POST["orderid"];                  //是您在发起付款接口传入的您的自定义订单号
+        $price = $_POST["price"];                      //单位：分。是您在发起付款接口传入的订单价格
+        $actual_price = $_POST["actual_price"];        //单位：分。一定存在。表示用户实际支付的金额。
+        $orderuid = $_POST["orderuid"];                //如果您在发起付款接口带入此参数，我们会原封不动传回。
+        $key = $_POST["key"];
+        $notify_key = md5($actual_price.$bill_no.$orderid.$orderuid.$price.$token);
+
+        if($key == $notify_key){
+            $_rechargeLogic = new RechargeLogic();
+            $order = $_rechargeLogic->orderByTradeNo($orderid, 0);  // 查询充值订单
+            if($order){
+                $res = $_rechargeLogic->rechargeComplete($order['trade_no'], $order['amount'], $order['user_id'], null);  // 加钱，增加记录
+                if(!$res){
+                    @file_put_contents($path, "加钱出错\r\n", FILE_APPEND);
+                    die("{'ret_code':'9999','ret_msg':'订单状态修改失败'}");
+                }
+                @file_put_contents($path, "加钱成功", FILE_APPEND);
+                echo 'success';
+                die;
+            }
+        }else{
+            @file_put_contents($path, "签名错误\r\n", FILE_APPEND);
+        }
+    }
+
+
     public function daifu_notify(){
         $data = request()->post();
         $clientNumber = $data['clientNumber'];
