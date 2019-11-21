@@ -41,7 +41,7 @@ class SmsLogic
 		}else if($act == "manager"){		// 申请经纪人
 			$postArr['templateId'] = '25950';
 		}
-        print_r($postArr);die;
+        
 		$result = $this->curlPost( 'http://api.1cloudsp.com/api/v2/single_send', $postArr);
 
 		if(!is_null(json_decode($result))){	
