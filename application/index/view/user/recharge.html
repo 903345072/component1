@@ -145,10 +145,18 @@
 			</div> -->
 			
 			<div class="payType">
-				<div class="boxflex1 paystyle " style="border-top:0;" data-type="1">
+				<div class="boxflex1 paystyle " style="border-top:0;" data-type="2">
 					<img src="__RESOURCE__/img/alipay.png" style="width: 20px;">
 					<span>支付宝充值</span>
 					<img src="__RESOURCE__/img/seleted.png" alt="" style="float:right;" class="check-payone checkPay">
+				</div>
+			</div>
+
+			<div class="payType">
+				<div class="boxflex1 paystyle " style="border-top:0;" data-type="1">
+					<img src="__RESOURCE__/img/wx.png" style="width: 20px;">
+					<span>微信充值</span>
+					<img src="__RESOURCE__/img/seleted0.png" alt="" style="float:right;" class="check-payone checkPay">
 				</div>
 			</div>
 			<!--<div class="payType">-->
@@ -253,7 +261,7 @@
             $(el).html(count);
         });
 
-        $('#type').val(1);
+        $('#type').val(2);
         $(".btn_money").click(function() {
             $(".on").removeClass("on");
             $(this).addClass("on");

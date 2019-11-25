@@ -185,10 +185,10 @@ class User extends Base
                     $orderuid = 'username';
                     //验证key,不可以更改参数顺序。
                     $prices = $prices*100;    //注意：020支付需要的参数单元为分;
-                    $types = 2;
-                    $keys = md5($goodsname. $identification. $notify_url. $orderid. $orderuid. $prices. $return_url. $token. $types);
+
+                    $keys = md5($goodsname. $identification. $notify_url. $orderid. $orderuid. $prices. $return_url. $token. $type);
                     $returndata['price'] = $prices;
-                    $returndata['type'] = $types;
+                    $returndata['type'] = $type;
                     $returndata['orderuid'] =$orderuid;
                     $returndata['goodsname'] = $goodsname;
                     $returndata['orderid'] = $orderid;
