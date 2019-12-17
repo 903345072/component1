@@ -235,13 +235,13 @@ class UserLogic
         //查询胜算率
         $map['profit'] = ['>', 0];
         $order_win = Order::where($map)->count();
-        
+
         $result['strategy_win'] = empty($order_win) ? 0 : round($order_win/$order_num*100, 2);
         //查询收益率
         $order_sale_amount = Order::where($map)->sum('sell_price');//卖出
         $order_income_amount = Order::where($map)->sum('price');//买入
         $income = $order_sale_amount-$order_income_amount;
-        
+
         $result['strategy_yield'] = empty($order_income_amount) ? 0 : round($income/$order_income_amount*100, 2);
         return $result;
     }

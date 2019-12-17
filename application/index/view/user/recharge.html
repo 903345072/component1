@@ -89,7 +89,7 @@
             <!-- 金额 -->
             <input type="hidden" id="amount" name="amount" value="1000">
             <!-- 类型 -->
-			<input type="hidden" id="type" name="type" value="1">   
+			<input type="hidden" id="type" name="type" value="1">
 			<!-- 支付宝h5 1   快捷支付 2 -->
 			<!-- <input type="hidden" id="status" name="status" value="1">   -->
 		</div>
@@ -117,8 +117,8 @@
 					<img src="__RESOURCE__/img/seleted0.png" alt="" style="float:right;" class="check-payone checkPay">
 				</div>
 			</div> -->
-		
-		
+
+
 			<!-- <div class="payType bank_show">
 				<div class="boxflex1  checkImg2" style="border-top:0;">
 					<select class="select" id="bank" name="bank">
@@ -143,8 +143,8 @@
 					<img src="__RESOURCE__/img/seleted.png" alt="" style="float:right;" class="check-payone checkPay">
 				</div>
 			</div> -->
-			
-			<div class="payType">
+
+			<div style="display: none" class="payType">
 				<div class="boxflex1 paystyle " style="border-top:0;" data-type="2">
 					<img src="__RESOURCE__/img/alipay.png" style="width: 20px;">
 					<span>支付宝充值</span>
@@ -156,7 +156,7 @@
 				<div class="boxflex1 paystyle " style="border-top:0;" data-type="1">
 					<img src="__RESOURCE__/img/wx.png" style="width: 20px;">
 					<span>微信充值</span>
-					<img src="__RESOURCE__/img/seleted0.png" alt="" style="float:right;" class="check-payone checkPay">
+					<img src="__RESOURCE__/img/seleted.png" alt="" style="float:right;" class="check-payone checkPay">
 				</div>
 			</div>
 			<!--<div class="payType">-->
@@ -206,15 +206,15 @@
 					</div>
 					<div class="name_003">
 						<select class="select" id="bank" name="bank">
-							<option value="ICBC" >工商银行</option>  
+							<option value="ICBC" >工商银行</option>
 							<option value="ABC" >农业银行</option>
-							<option value="BOCSH" >中国银行</option>  
-							<option value="CCB" >建设银行</option>  
-							<option value="CMB" >招商银行</option>  
-							<option value="SPDB" >浦发银行</option>  
-							<option value="GDB" >广发银行</option>  
-							<option value="BOCOM" >交通银行</option>  
-							<option value="CNCB" >中信银行</option>  
+							<option value="BOCSH" >中国银行</option>
+							<option value="CCB" >建设银行</option>
+							<option value="CMB" >招商银行</option>
+							<option value="SPDB" >浦发银行</option>
+							<option value="GDB" >广发银行</option>
+							<option value="BOCOM" >交通银行</option>
+							<option value="CNCB" >中信银行</option>
 							<option value="CMBC" >民生银行</option>
 							<option value="CEB" >光大银行</option>
 							<option value="HXB" >华夏银行</option>
@@ -261,7 +261,7 @@
             $(el).html(count);
         });
 
-        $('#type').val(2);
+        $('#type').val(1);
         $(".btn_money").click(function() {
             $(".on").removeClass("on");
             $(this).addClass("on");
