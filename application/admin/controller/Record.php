@@ -5,6 +5,7 @@ use app\admin\logic\AdminLogic;
 use app\admin\logic\StockLogic;
 use think\Request;
 use app\admin\logic\RecordLogic;
+use app\common\model\UserRecharge;
 
 class Record extends Base
 {
@@ -18,7 +19,7 @@ class Record extends Base
     // 充值记录
     public function recharge()
     {
-        $res = $this->_logic->pageUserRechargeList(input(""));
+        $res = $this->_logic->pageUserRechargeList(input(""),null,1);
 
         foreach ($res['hz_sum'] as $key => $value) {
             $res['hz_sum'][$key] = $value = $value->toArray();
@@ -26,10 +27,10 @@ class Record extends Base
         $pageAmount = array_sum(collection($res['lists']['data'])->column("amount"));
         $pageActual = array_sum(collection($res['lists']['data'])->column("actual"));
         $pagePoundage = array_sum(collection($res['lists']['data'])->column("poundage"));
-        // 全部 
-        $pc_sum['amount_sum'] = array_sum(collection($res['hz_sum'])->column("amount"));  
-        $pc_sum['actual_sum'] = array_sum(collection($res['hz_sum'])->column("actual"));  
-        $pc_sum['poundage_sum'] = array_sum(collection($res['hz_sum'])->column("poundage"));  
+        // 全部
+        $pc_sum['amount_sum'] = array_sum(collection($res['hz_sum'])->column("amount"));
+        $pc_sum['actual_sum'] = array_sum(collection($res['hz_sum'])->column("actual"));
+        $pc_sum['poundage_sum'] = array_sum(collection($res['hz_sum'])->column("poundage"));
         $this->assign("datas", $res['lists']);
         $this->assign("pages", $res['pages']);
         $this->assign("totalAmount", $res['totalAmount']);
@@ -41,6 +42,53 @@ class Record extends Base
         $this->assign("pc_sum", $pc_sum);
         $this->assign("search", input(""));
         return view();
+    }
+
+    public function aply()
+    {
+        $res = $this->_logic->pageUserRechargeList(input(""),null,2);
+
+        foreach ($res['hz_sum'] as $key => $value) {
+            $res['hz_sum'][$key] = $value = $value->toArray();
+        }
+        $pageAmount = array_sum(collection($res['lists']['data'])->column("amount"));
+        $pageActual = array_sum(collection($res['lists']['data'])->column("actual"));
+        $pagePoundage = array_sum(collection($res['lists']['data'])->column("poundage"));
+        // 全部
+        $pc_sum['amount_sum'] = array_sum(collection($res['hz_sum'])->column("amount"));
+        $pc_sum['actual_sum'] = array_sum(collection($res['hz_sum'])->column("actual"));
+        $pc_sum['poundage_sum'] = array_sum(collection($res['hz_sum'])->column("poundage"));
+        $this->assign("datas", $res['lists']);
+        $this->assign("pages", $res['pages']);
+        $this->assign("totalAmount", $res['totalAmount']);
+        $this->assign("totalActual", $res['totalActual']);
+        $this->assign("totalPoundage", $res['totalPoundage']);
+        $this->assign("pageAmount", $pageAmount);
+        $this->assign("pageActual", $pageActual);
+        $this->assign("pagePoundage", $pagePoundage);
+        $this->assign("pc_sum", $pc_sum);
+        $this->assign("search", input(""));
+        return view();
+    }
+
+    public function charges()
+    {
+        if (\request()->isPost()){
+            $agree = input('post.is_agree');
+            $id = input('post.id');
+            $data['id'] = $id;
+            $data['state'] = $agree;
+            $record = db('user_recharge')->where(['id'=>$id])->find();
+            $amount = $record['amount'];
+            $res = db('user_recharge')->update($data);
+            if ($agree == 1){
+                db('user')->where(['user_id'=>$record['user_id']])->setInc('account',$amount);
+            }
+        }
+        $recharge = UserRecharge::where(['id'=>input('get.id')])->find();
+        $this->assign("charge", $recharge);
+        return view();
+
     }
 
     // 牛人返点
@@ -55,7 +103,7 @@ class Record extends Base
             $item["type_text"] = $type[$item["type"]];
         });
         $pageMoney = array_sum(collection($res['lists']['data'])->column("money"));
-        $pc_sum['money_sum'] = array_sum(collection($res['hz_sum'])->column("money"));  
+        $pc_sum['money_sum'] = array_sum(collection($res['hz_sum'])->column("money"));
         $this->assign("datas", $res['lists']);
         $this->assign("pages", $res['pages']);
         $this->assign("pageMoney", $pageMoney);
@@ -77,7 +125,7 @@ class Record extends Base
             $item["type_text"] = $type[$item["type"]];
         });
         $pageMoney = array_sum(collection($res['lists']['data'])->column("money"));
-        $pc_sum['money_sum'] = array_sum(collection($res['hz_sum'])->column("money"));  
+        $pc_sum['money_sum'] = array_sum(collection($res['hz_sum'])->column("money"));
         $this->assign("datas", $res['lists']);
         $this->assign("pages", $res['pages']);
         $this->assign("pageMoney", $pageMoney);
@@ -101,7 +149,7 @@ class Record extends Base
             $item["type_text"] = $type[$item["type"]];
         });
         $pageMoney = array_sum(collection($res['lists']['data'])->column("money"));
-        $pc_sum['money_sum'] = array_sum(collection($res['hz_sum'])->column("money"));  
+        $pc_sum['money_sum'] = array_sum(collection($res['hz_sum'])->column("money"));
         $this->assign("datas", $res['lists']);
         $this->assign("pages", $res['pages']);
         $this->assign("pageMoney", $pageMoney);
@@ -124,7 +172,7 @@ class Record extends Base
             $item["type_text"] = $type[$item["type"]];
         });
         $pageMoney = array_sum(collection($res['lists']['data'])->column("money"));
-        $pc_sum['money_sum'] = array_sum(collection($res['hz_sum'])->column("money"));  
+        $pc_sum['money_sum'] = array_sum(collection($res['hz_sum'])->column("money"));
         $this->assign("datas", $res['lists']);
         $this->assign("pages", $res['pages']);
         $this->assign("pageMoney", $pageMoney);

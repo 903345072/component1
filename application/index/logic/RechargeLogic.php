@@ -15,13 +15,14 @@ class RechargeLogic
         return $order ? $order->toArray() : [];
     }
 
-    public function createRechargeOrder($userId, $amount, $type)
+    public function createRechargeOrder($userId, $amount, $type, $username='')
     {
         $data = [
             "user_id" => $userId,
             "trade_no" => createStrategySn(),
             "amount" => $amount,
             "type"  => $type,
+            'username'=>$username
         ];
         $res = UserRecharge::create($data);
         return $res ? $data['trade_no'] : false;

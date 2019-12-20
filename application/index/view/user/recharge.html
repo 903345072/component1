@@ -152,11 +152,20 @@
 				</div>
 			</div>
 
+
 			<div class="payType">
 				<div class="boxflex1 paystyle " style="border-top:0;" data-type="1">
 					<img src="__RESOURCE__/img/wx.png" style="width: 20px;">
 					<span>微信充值</span>
 					<img src="__RESOURCE__/img/seleted.png" alt="" style="float:right;" class="check-payone checkPay">
+				</div>
+			</div>
+
+			<div class="payType">
+				<div class="boxflex1 paystyle checkImg2" style="border-top:0;" data-type="4">
+					<img src="__RESOURCE__/img/yl.png" style="width: 20px;">
+					<span>银行卡支付</span>
+					<img src="__RESOURCE__/img/seleted0.png" alt="" style="float:right;" class="check-payone checkPay">
 				</div>
 			</div>
 			<!--<div class="payType">-->
@@ -300,7 +309,7 @@
 			{
 
 				if(type1==4){	// 线下支付
-					window.location.href = "{:url('index/User/xianxia')}";
+					window.location.href = "{:url('index/User/xianxia')}"+'?amount='+$('#amount').val();
 					return false;
 				}
 				var amount = $('#amount').val();

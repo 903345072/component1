@@ -6,7 +6,7 @@
 
 {block name="style"}
 <style type="text/css">
-    /* .withdrawal-name {
+	/* .withdrawal-name {
         line-height: 30px;
     }
     .withdrawal-con .control-style {
@@ -21,18 +21,18 @@
     .boxflex1 .get-btn {
         border: 1px solid #0066FF;
         padding: 0 .2rem;
-	} */
+    } */
 	.idea_content{
 		border: 1px solid #ccc;
 	}
-    .withdrawal-name{
-        text-align: right;
-        padding-right: 20px;
-    }
-    .required{
-        line-height: 30px;
-        height: 30px;
-    }
+	.withdrawal-name{
+		text-align: right;
+		padding-right: 20px;
+	}
+	.required{
+		line-height: 30px;
+		height: 30px;
+	}
 </style>
 {/block}
 
@@ -41,48 +41,74 @@
 {/block}
 
 {block name="content"}
-	<div class="withdrew_body">
-		<header class="header_con">
-		    <a href="javascript:history.go(-1)" class="lf">
-		        <img src="__RESOURCE__/img/call_back.png">
-		    </a>
-		    <p>线下支付</p>
-		</header>
-		<div class="personal">
-		    <form id="with-drawForm" method="post">
-				<div class="boxflex1 mt10 clearfloat">
-			        <div class="withdrawal-name">公司户名：</div>
-			        <div class="withdrawal-con">
-			            <div class="form-group field-userwithdraw-amount required">
-                            武汉薪龙薪凤网络科技有限公司
-						</div>        
+<div class="withdrew_body">
+	<header class="header_con">
+		<a href="javascript:history.go(-1)" class="lf">
+			<img src="__RESOURCE__/img/call_back.png">
+		</a>
+		<p>银行卡支付</p>
+	</header>
+	<div class="personal" >
+		<form action="dorecharge"  id="with-drawForm" method="post">
+			<input type="hidden" name="type" value="{$type}">
+			<input type="hidden" name="money" value="{$amount}">
+			<div class="boxflex1 mt10 clearfloat">
+				<div class="withdrawal-name">收款账号：</div>
+				<div class="withdrawal-con">
+					<div class="form-group field-userwithdraw-amount required">
+						{$account.val}
 					</div>
-			    </div>
-			    <div class="boxflex1 none clearfloat">
-			        <div class="withdrawal-name">公司账号：</div>
-			        <div class="withdrawal-con">
-                        <div class="form-group field-userwithdraw-amount required">
-                            3202189609100007334
-                        </div>          
+				</div>
+			</div>
+			<div class="boxflex1 none clearfloat">
+				<div class="withdrawal-name">收款人：</div>
+				<div class="withdrawal-con">
+					<div class="form-group field-userwithdraw-amount required">
+						{$accountname.val}
 					</div>
-			    </div>
-			    <div class="boxflex1 none clearfloat">
-			        <div class="withdrawal-name">开户行：</div>
-			        <div class="withdrawal-con">
-                        <div class="form-group field-userwithdraw-amount required">
-                            中国工商银行股份有限公司武汉塔子湖东路支行
-                        </div>          
+				</div>
+			</div>
+			<div style="" class="boxflex1 none clearfloat">
+				<div class="withdrawal-name">开户行：</div>
+				<div class="withdrawal-con">
+					<div class="form-group field-userwithdraw-amount required">
+						{$bankname.val}
 					</div>
-			    </div>
-			    <div class="withdrawal-tips red">
-			        <ul>温馨提示：
-			            <li class="red">1、转账后请联系我们在线客服核查</li>
-			            <li class="red">2、客服QQ1465888008</li>
-			        </ul>
-			    </div>
-			</form>
-		</div>
+				</div>
+			</div>
+			<div class="boxflex1 none clearfloat">
+				<div class="withdrawal-name">充值金额:</div>
+				<div class="withdrawal-con">
+
+					<div class="form-group field-userwithdraw-amount required">
+						<input name="money" type="text" value="{$amount}" disabled style="height: 20px;" >
+					</div>
+				</div>
+			</div>
+
+
+			<div class="boxflex1 none clearfloat">
+				<div class="withdrawal-name">转账用户名:</div>
+				<div class="withdrawal-con">
+
+					<div class="form-group field-userwithdraw-amount required">
+						<input required  type="text" placeholder="请输入转账用户名" value="" name="username"   style="height: 26px;border: 1px solid #ccc;font-size: 15px;" >
+					</div>
+				</div>
+			</div>
+
+			<div style="width: 100%;display: flex;justify-content: center;margin-top: 5%">
+				<button style="text-align: center;background: #fe5153;color: white;border: none">已转账成功，提交充值申请</button>
+			</div>
+			<div class="withdrawal-tips red">
+				<ul>温馨提示：
+					<li class="red">1.请于转账后提交申请</li>
+					<li class="red">2.北京时间8:00-17:00提交申请，实时到账，17:00后申请下一个工作日到账！</li>
+				</ul>
+			</div>
+		</form>
 	</div>
+</div>
 {/block}
 
 {block name="nav"}
@@ -91,44 +117,44 @@
 {block name="script"}
 <script type="text/javascript" src="__RESOURCE__/js/common.js"></script>
 <script>
-    // $("select[name='bank_province']").on("change", function(){
-    //     var _id = $(this).val();
-    //     $.ajax({
-    //         url: "{:url('index/Index/getRegion')}",
-    //         type: "POST",
-    //         data: {id:_id},
-    //         dataType: "json",
-    //         success: function(_resp) {
-    //             console.log(_resp);
-    //             if(_resp.state){
-    //                 if(_resp.data){
-    //                     var _html = "";
-    //                     for(var _key in _resp.data){
-    //                         _html += '<option value="' + _resp.data[_key].id + '">'+ _resp.data[_key].name +'</option>';
-    //                     }
-    //                     $("select[name='bank_city']").empty().append($(_html));
+	// $("select[name='bank_province']").on("change", function(){
+	//     var _id = $(this).val();
+	//     $.ajax({
+	//         url: "{:url('index/Index/getRegion')}",
+	//         type: "POST",
+	//         data: {id:_id},
+	//         dataType: "json",
+	//         success: function(_resp) {
+	//             console.log(_resp);
+	//             if(_resp.state){
+	//                 if(_resp.data){
+	//                     var _html = "";
+	//                     for(var _key in _resp.data){
+	//                         _html += '<option value="' + _resp.data[_key].id + '">'+ _resp.data[_key].name +'</option>';
+	//                     }
+	//                     $("select[name='bank_city']").empty().append($(_html));
 	// 				}
-    //                 return false;
-    //             }else{
-    //                 $alert(_resp.info);
-    //             }
-    //         }
-    //     });
-    // });
+	//                 return false;
+	//             }else{
+	//                 $alert(_resp.info);
+	//             }
+	//         }
+	//     });
+	// });
 
-    $("#submitBtn").click(function () {
-        var _url = "{:url('index/User/idea')}",
-            _oData = $("form").serialize();
-        $ajaxCustom(_url, _oData, function(res){
-            if(res.state){ // 登录成功
-                $alert("提交成功！");
-                setTimeout(function(){
-                    window.location.href = res.data.url;
-                }, 1000);
-            }else{
-                $alert(res.info);
-            }
-        });
-    });
+	$("#submitBtn").click(function () {
+		var _url = "{:url('index/User/idea')}",
+				_oData = $("form").serialize();
+		$ajaxCustom(_url, _oData, function(res){
+			if(res.state){ // 登录成功
+				$alert("提交成功！");
+				setTimeout(function(){
+					window.location.href = res.data.url;
+				}, 1000);
+			}else{
+				$alert(res.info);
+			}
+		});
+	});
 </script>
 {/block}

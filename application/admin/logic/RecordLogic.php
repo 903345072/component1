@@ -13,11 +13,16 @@ use app\admin\model\UserRecharge;
 class RecordLogic
 {
     // 用户充值记录
-    public function pageUserRechargeList($filter = [], $pageSize = null)
+    public function pageUserRechargeList($filter = [], $pageSize = null,$type=1)
     {
         $where = [];
         $hasWhere = [];
-        $where["stock_user_recharge.state"] = 1;
+        if ($type == 1){
+            $where["stock_user_recharge.state"] = 1;
+        }else{
+            $where["stock_user_recharge.type"] = 11;
+        }
+
         $myUserIds = Admin::userIds();
         $myUserIds ? $where["stock_user_recharge.user_id"] = ["IN", $myUserIds] : null;
         // 订单号
@@ -28,6 +33,9 @@ class RecordLogic
         if(isset($filter['nickname']) && !empty($filter['nickname'])){
             $_nickname = trim($filter['nickname']);
             $hasWhere["nickname"] = ["LIKE", "%{$_nickname}%"];
+        }
+        if(isset($filter['status']) && !empty($filter['status'])){
+            $where['stock_user_recharge.state'] = trim($filter['status']);
         }
         // 手机号
         if(isset($filter['mobile']) && !empty($filter['mobile'])){

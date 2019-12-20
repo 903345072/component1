@@ -45,7 +45,38 @@
                     </div>
                 </div>
             </div>
+
+
+
+
             <div class="tabCon">
+                <div class="row cl">
+                    <label class="form-label col-xs-4 col-sm-2">收款账号：</label>
+                    <div class="formControls col-xs-8 col-sm-9">
+                        <input type="text" id="website-account" name="account" placeholder="收款账号" value="{$lists.account.val | default=''}" class="input-text">
+                    </div>
+                </div>
+
+                <div class="row cl">
+                    <label class="form-label col-xs-4 col-sm-2">收款人：</label>
+                    <div class="formControls col-xs-8 col-sm-9">
+                        <input type="text" id="website-accountname" name="accountname" placeholder="收款人" value="{$lists.accountname.val | default=''}" class="input-text">
+                    </div>
+                </div>
+
+                <div class="row cl">
+                    <label class="form-label col-xs-4 col-sm-2">开户行：</label>
+                    <div class="formControls col-xs-8 col-sm-9">
+                        <input type="text" id="website-bankname" name="bankname" placeholder="开户行" value="{$lists.bankname.val | default=''}" class="input-text">
+                    </div>
+                </div>
+
+                <div class="row cl">
+                    <label class="form-label col-xs-4 col-sm-2">说明：</label>
+                    <div class="formControls col-xs-8 col-sm-9">
+                        <input type="text" id="website-remark" name="remark" placeholder="说明" value="{$lists.remark.val | default=''}" class="input-text">
+                    </div>
+                </div>
                 <div class="row cl">
                     <label class="form-label col-xs-4 col-sm-2">用户昵称前缀：</label>
                     <div class="formControls col-xs-2 col-sm-4">

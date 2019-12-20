@@ -167,8 +167,9 @@ class User extends Base
                 $type = input("post.type", 1);  //支付通道，1-双银支付  2  GOIF
 
                 // $status = input("post.status", 1);   // 当$type为2时有效  支付宝1 快捷2
-                // $way = $type == 1 ? 2 : 1; 
+                // $way = $type == 1 ? 2 : 1;
                 // 生成订单
+
                 $orderSn = (new RechargeLogic())->createRechargeOrder($this->user_id, $amount, $type);
                 if($orderSn){
                     $prices = $amount;
@@ -220,7 +221,15 @@ class User extends Base
         $this->assign("redirect", $redirect);
         return view();
     }
-  
+
+    public function dorecharge()
+    {
+        $username = input('post.username');
+        $money = input('post.money');
+        $type = input('post.type');
+        (new RechargeLogic())->createRechargeOrder($this->user_id, $money, $type,$username);
+        return $this->redirect('/user/home');
+    }
     public function postman($url, $data) {
         $ch = curl_init();
         curl_setopt($ch, CURLOPT_URL, $url);
@@ -234,42 +243,42 @@ class User extends Base
         $output = curl_exec($ch);
         curl_close($ch);
         return $output;
-      
+
     }
-    //加密算法       
-    public  function encryptForDES($input,$key)   
-    {         
-        $size = mcrypt_get_block_size('des','ecb');  
-        $input = self::pkcs5_pad($input, $size);  
-        $td = mcrypt_module_open('des', '', 'ecb', '');  
-        $iv = @mcrypt_create_iv (mcrypt_enc_get_iv_size($td), MCRYPT_RAND);  
-        @mcrypt_generic_init($td, $key, $iv);  
-        $data = mcrypt_generic($td, $input);  
-        mcrypt_generic_deinit($td);  
-        mcrypt_module_close($td);  
-        $data = base64_encode($data);  
-        return $data;  
-    }   
-    public static  function pkcs5_pad ($text, $blocksize)   
-    {         
-       $pad = $blocksize - (strlen($text) % $blocksize);  
-       return $text . str_repeat(chr($pad), $pad);  
-    } 
-        
-    public static  function pkcs5_unpad($text)   
-    {         
-       $pad = ord($text{strlen($text)-1});  
-       if ($pad > strlen($text))  
-       {  
-           return false;  
-       }  
-       if (strspn($text, chr($pad), strlen($text) - $pad) != $pad)  
-       {  
-          return false;  
-       }  
-       return substr($text, 0, -1 * $pad);  
-    }  
-  
+    //加密算法
+    public  function encryptForDES($input,$key)
+    {
+        $size = mcrypt_get_block_size('des','ecb');
+        $input = self::pkcs5_pad($input, $size);
+        $td = mcrypt_module_open('des', '', 'ecb', '');
+        $iv = @mcrypt_create_iv (mcrypt_enc_get_iv_size($td), MCRYPT_RAND);
+        @mcrypt_generic_init($td, $key, $iv);
+        $data = mcrypt_generic($td, $input);
+        mcrypt_generic_deinit($td);
+        mcrypt_module_close($td);
+        $data = base64_encode($data);
+        return $data;
+    }
+    public static  function pkcs5_pad ($text, $blocksize)
+    {
+       $pad = $blocksize - (strlen($text) % $blocksize);
+       return $text . str_repeat(chr($pad), $pad);
+    }
+
+    public static  function pkcs5_unpad($text)
+    {
+       $pad = ord($text{strlen($text)-1});
+       if ($pad > strlen($text))
+       {
+           return false;
+       }
+       if (strspn($text, chr($pad), strlen($text) - $pad) != $pad)
+       {
+          return false;
+       }
+       return substr($text, 0, -1 * $pad);
+    }
+
     public function withdraw()
     {
         if(request()->isPost()){
@@ -406,7 +415,7 @@ class User extends Base
             }else{
                 $data = input("post.");
                 $res = $this->_logic->saveIdea($this->user_id, $data);
-                
+
                 if($res){
                     $url = url("index/User/index");
                     return $this->ok(['url' => $url]);
@@ -436,7 +445,13 @@ class User extends Base
         return view();
     }
     public function xianxia(){
-        return view();
+        $amount = input('get.amount');
+        $account =  db('config')->where(['alias'=>'account'])->find();
+        $accountname = db('config')->where(['alias'=>'accountname'])->find();
+        $bankname = db('config')->where(['alias'=>'bankname'])->find();
+        $remark = db('config')->where(['alias'=>'remark'])->find();
+
+        return view('xianxia',['type'=>11,'amount'=>$amount,'account'=>$account,'accountname'=>$accountname,'bankname'=>$bankname,'remark'=>$remark]);
     }
 
 }

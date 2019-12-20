@@ -72,7 +72,8 @@ Route::group("user", function () {
     Route::any('protocol_3','index/User/protocol_3'); //体现
     Route::any('protocol_4','index/User/protocol_4'); //体现
     Route::any('xianxia','index/User/xianxia');       //线下
-  
+    Route::any('dorecharge','index/User/dorecharge');       //线下
+
 });
 
 // 订单
@@ -399,6 +400,8 @@ Route::group([], function() {
         // 记录
         Route::group("record", function(){
             Route::any('recharge', 'admin/Record/recharge'); //充值
+            Route::any('aply', 'admin/Record/aply'); //充值申请
+            Route::any('charges', 'admin/Record/charges'); //充值申请
             Route::any('niuren', 'admin/Record/niuren'); //牛人
             Route::any('manager', 'admin/Record/manager'); // 经纪人返点
             Route::any('proxy', 'admin/Record/proxy'); // 后台代理商
