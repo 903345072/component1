@@ -57,8 +57,11 @@
 				<div class="withdrawal-con">
 					<div class="form-group field-userwithdraw-amount required">
 						{$account.val}
+						<input onclick="copyAccount()" type="button" style="float: right" value="复制">
 					</div>
+
 				</div>
+
 			</div>
 			<div class="boxflex1 none clearfloat">
 				<div class="withdrawal-name">收款人：</div>
@@ -141,6 +144,40 @@
 	//         }
 	//     });
 	// });
+
+	function copyAccount(){
+		var account = "{$account.val}";
+		copyText(account);
+	}
+
+	function copyText(obj) {
+		if (!obj) {
+			return false;
+		}
+		var text;
+		if (typeof(obj) == 'object') {
+			if (obj.nodeType) { // DOM node
+				obj = $(obj); // to jQuery object
+			}
+			try {
+				text = obj.text();
+				if (!text) { // Maybe <textarea />
+					text = obj.val();
+				}
+			} catch (err) { // as JSON
+				text = JSON.stringify(obj);
+			}
+		} else {
+			text = obj;
+		}
+		//var $temp = $('<input>'); // Line feed is not supported
+		var $temp = $('<textarea>');
+		$('body').append($temp);
+		$temp.val(text).select();
+		var res = document.execCommand('copy');
+		$temp.remove();
+		return res;
+	}
 
 	$("#submitBtn").click(function () {
 		var _url = "{:url('index/User/idea')}",
