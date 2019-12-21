@@ -118,7 +118,9 @@
 {/block}
 
 {block name="script"}
+
 <script type="text/javascript" src="__RESOURCE__/js/common.js"></script>
+
 <script>
 	// $("select[name='bank_province']").on("change", function(){
 	//     var _id = $(this).val();
@@ -148,6 +150,7 @@
 	function copyAccount(){
 		var account = "{$account.val}";
 		copyText(account);
+		alert('复制成功')
 	}
 
 	function copyText(obj) {
