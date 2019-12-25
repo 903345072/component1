@@ -182,7 +182,7 @@
                                         <div class="risk_content">
                                             <p class="risk_title">建仓费说明</p>
                                             <div class="risk_text">
-                                                <p>交易建仓费是当策略第一次发起时，策略人要支付给平台的费用，费用包括交易印花税、过户费、佣金以及平台的居间费。此费用根据策略金额收取，在第一天收取，一般标准为150元/万（数据仅供参考，以实际平台公布为准）。</p>
+                                                <p>交易建仓费是当策略第一次发起时，策略人要支付给平台的费用，费用包括交易印花税、过户费、佣金以及平台的居间费。此费用根据策略金额收取，在第一天收取，一般标准为40元/万（数据仅供参考，以实际平台公布为准）。</p>
                                             </div>
                                             <p class="read_risk_btn">确认</p>
                                         </div>
@@ -191,7 +191,7 @@
                                 </a>
                             </div>
                         </section>
-                
+
                         <section class="buy_section">
                             <div class="b_gupiao_detail clear_fl b_gupiao_intro no_border">
                                 <div class="agent_price_title lf">递延费</div>
@@ -218,7 +218,7 @@
                                 </a>
                             </div>
                         </section>
-                
+
                         <section class="buy_section">
                             <div class="sub_pay_con clear_fl">
                                 <div class="lf">
@@ -243,7 +243,7 @@
                                 {volist name="deposits" id="item"}
                                 <li data-id="{$item.id}" data-money="{$item.money|floatval}">{$item.name}</li>
                                 {/volist}
-                            </ul>    
+                            </ul>
                         </div>
                         <div class="open-time">
                             <span>保&nbsp;证&nbsp;金&nbsp;额</span>
@@ -266,7 +266,7 @@
                                 {volist name="levers" id="item"}
                                 <li data-id="{$item.id}" data-multiple="{$item.multiple}">{$item.name}</li>
                                 {/volist}
-                            </ul>    
+                            </ul>
                         </div> -->
                         <!-- <div class="check-surplus">
                             <span>触&nbsp;发&nbsp;止&nbsp;盈</span>
@@ -275,8 +275,8 @@
                             </div>
                             <ul id="check-surplus_ul">
                                 <li class="active" data-val="50">5000</li>
-                            
-                            
+
+
                             </ul>
                         </div> -->
                         <!-- <div class="stop-loss choose-loss" id="stop-loss" style="margin-bottom: 15px;">
@@ -306,11 +306,11 @@
                             <p>
                                 <span>递 延 费</span>
                                 <em id="delay_fee">18</em>元/天/万元</span>
-                            </p>       
+                            </p>
                         </div>
                         <div class="delay_condition">
                             <span>自动递延</span>
-                            <span><input id="autoDefer" type="checkbox" checked="checked" class="switch__mui-switch___3_30S switch__mui-switch-anim___3IUf5" value="on"></span>       
+                            <span><input id="autoDefer" type="checkbox" checked="checked" class="switch__mui-switch___3_30S switch__mui-switch-anim___3IUf5" value="on"></span>
                         </div>
                         <div class="protocol_row">
                             <p><input type="checkbox" name="agree_pro" id="agree_pro" checked="true">我已阅并签署以下协议</p>
@@ -509,7 +509,7 @@
 	$(".intro_btn").click(function(){
 		$(this).find(".risk_mask").show();
 	});
-	
+
 	$("body").on("click", ".read_risk_btn", function(){
 		$(this).parents(".risk_mask").hide();
 	});
@@ -580,7 +580,7 @@
 	// 		}
 	// 		now_count = ((now_count * 100 - 1) / 100).toFixed(2);
 	// 	}else{ //加
-	// 		if( context.hasClass("zhisun") ){ 
+	// 		if( context.hasClass("zhisun") ){
 	// 			var _rate = parseFloat( context.find(".fudong").find("span").html() );
 	// 			if( _rate >= 0 ){
 	// 				return false;
@@ -649,7 +649,7 @@
 		var count = Math.floor(creditNum * multiple * usage / nowPrice /100 / 100) * 100; //股数
 		var ammount =  (count * nowPrice).toFixed(2);
 		console.log(count)
-		console.log(ammount)		
+		console.log(ammount)
         $(".baishu_detail .lf").html(count + "股").attr("data-count",count);
 		$(".baishu_detail .rt").html("市值" + ammount + "元").attr("data-ammount",ammount);
 
@@ -728,7 +728,7 @@
 		}
 		var _url = "{:url('web/Stock/buy')}";
         $ajaxCustom(_url, params, function(res){
-            if(res.state){ 
+            if(res.state){
             	layer.msg("建仓成功");
                 var data = res.data;
                 if(data.url){
