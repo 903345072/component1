@@ -21,9 +21,7 @@
             <select class="select" name="state" size="1">
                 <option value="">状态</option>
                 <option value="0" {if condition="isset($search.state) AND $search.state heq '0'"}selected{/if}>待审核</option>
-                <option value="1" {if condition="isset($search.state) AND $search.state heq '1'"}selected{/if}>代付中</option>
-                <option value="2" {if condition="isset($search.state) AND $search.state heq '2'"}selected{/if}>已到账</option>
-                <option value="3" {if condition="isset($search.state) AND $search.state heq '3'"}selected{/if}>到账失败</option>
+                <option value="1" {if condition="isset($search.state) AND $search.state heq '1'"}selected{/if}>已操作</option>
                 <option value="-1" {if condition="isset($search.state) AND $search.state heq '-1'"}selected{/if}>已拒绝</option>
             </select>
         </span>
@@ -76,11 +74,7 @@
                 {if condition="$item.state eq 0"}
                     <span class="label label-warning radius">待审核</span>
                 {elseif condition="$item.state eq 1"}
-                    <span class="label label-primary radius">代付中</span>
-                {elseif condition="$item.state eq 2"}
-                    <span class="label label-success radius">已到账</span>
-                {elseif condition="$item.state eq 3"}
-                    <span class="label label-danger radius">到账失败</span>
+                    <span class="label label-primary radius">已通过</span>
                 {elseif condition="$item.state eq -1"}
                     <span class="label label-danger radius">已拒绝</span>
                 {/if}

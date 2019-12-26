@@ -68,7 +68,12 @@ class UserWithdrawLogic
             if($state == 1){
                 // 审核通过
                 // 代付接口
-                
+                $data = [
+                    "id" => $id,
+                    "state" => $state,
+                    "update_by" => isLogin()
+                ];
+                UserWithdraw::update($data);
             }elseif($state == -1){
                 // 审核拒绝
                 // 订单状态更改
@@ -99,7 +104,7 @@ class UserWithdrawLogic
             return [false, '系统提示：异常错误！'];
         }
     }
-  
+
     public function postman($url, $data) {
         $ch = curl_init();
         curl_setopt($ch, CURLOPT_URL, $url);
