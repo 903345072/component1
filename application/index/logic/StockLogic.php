@@ -46,9 +46,9 @@ class StockLogic
         $code = implode(',', $codes);
         $fields = ['name','nowPrice','diff_money','diff_rate'];
         $response = $this->_library->realtime($code, $fields);
-        if($response){ 
+        if($response){
             $_resp = [];
-            
+
             if(isset($response['showapi_res_body']['indexList'])){
                 $data0 = $response['showapi_res_body']['indexList'];  // 几大板块
                 foreach ($data0 as $key=>$val){
@@ -108,6 +108,19 @@ class StockLogic
         }
         return [];
     }
+
+
+    public function stockLists()
+    {
+        return Stock::order('id')->column('code');
+    }
+
+    public function saveStock($out)
+    {
+        return model('Stock')->saveAll($out);
+    }
+
+
 
     public function realData($code, $crc='', $min='')
     {
@@ -180,7 +193,7 @@ class StockLogic
                     $realData['sell5_n'],
                     $realData['sell5_m'],
                 ];
-               
+
                 $trend = $this->_library->trend($cd, $crc, $min_date);
                 $trendFields = ['min_time',' last_px','avg_px','business_amount'];
                 //$trendCrc  = $trend['data']['trend']['crc'][$code];

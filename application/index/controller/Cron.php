@@ -8,7 +8,7 @@ use app\index\logic\OrderLogic;
 use app\index\job\DeferJob;
 use app\index\job\SellJob;
 use app\index\job\RebateJob;
-
+use app\index\logic\StockLogic;
 class Cron extends Controller
 {
     // 抓取板块行情指数
@@ -70,7 +70,7 @@ class Cron extends Controller
                 ];
                 $_jsTextArrays[] = "stocks[". $_jsTextIndex ."]=new Array('','" . $item[1] . "','" . str_replace(' ', '', $item[2]) . "','" . $item[0] . "'); ";
                 $_jsTextIndex++;
-                
+
             }
             for ($i = 2; $i <= $count; $i++){
                 $_url = 'http://money.finance.sina.com.cn/d/api/openapi_proxy.php/?__s=[["hq","hs_a","",0,'.$i.',200]]&callback=FDC_DC.theTableData';
@@ -114,7 +114,7 @@ class Cron extends Controller
         }
         return 'ok';
     }
-    
+
     // 递延费扣除
     public function scanOrderDefer()
     {
@@ -137,7 +137,7 @@ class Cron extends Controller
         }
         return 'ok';
     }
-        
+
     // 爆仓、止盈、止损，交易时间段、每2秒一次
     public function scanOrderSell()
     {
