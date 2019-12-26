@@ -35,13 +35,17 @@ class Stock extends Base
             if($quotation[$code]['state'] !=1){
                 return $this->fail("已停牌！");
             }
+            if(!isset($quotation[$code])){
+                return $this->fail("已暂停");
+            }
             $validate = \think\Loader::validate('Stock');
             if(!$validate->scene('buy')->check(input("post."))){
                 return $this->fail($validate->getError());
             }else{
                 $modeId = input("post.mode/d");
                 $leverId = input("post.lever/d");
-                $price = input("post.price/f");
+                //$price = input("post.price/f");
+                $price = $quotation[$code]['last_px'];
                 $followId = input("post.follow_id/d", 0);
                 $stock = $this->_logic->stockByCode($code);
                 $mode = (new ModeLogic())->modeIncPluginsById($modeId);
@@ -149,7 +153,7 @@ class Stock extends Base
                 $quotation['pe_rate']  = $quotation[0]['pe'];
                 $quotation['circulation_value']  = $quotation[0]['circulation_value'];
                 $quotation['shares_per_hand']  = 1;
-                
+
                 $quotation['bid_grp'] = [
                     $quotation[0]['buy1_n'],
                     $quotation[0]['buy1_m'],
